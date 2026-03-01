@@ -1,7 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name:
+      'Gestión de las reclamaciones y telemarketing en la atención telefónica',
+    Description:
+      'El componente formativo aborda la gestión de reclamaciones en la atención telefónica y el uso estratégico del telemarketing. Destaca la importancia de la satisfacción del cliente, el manejo adecuado de quejas y clientes enfadados, así como las fases del proceso de reclamación. También se analizan funciones, ventajas, tipos y elementos clave del telemarketing para mejorar la fidelización y productividad empresarial.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,13 +33,33 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Reclamaciones del cliente',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Pautas de acción ante una reclamación',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Tratamiento de reclamaciones',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: '¿Qué hacer una vez resuelta la reclamación?',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Tratamiento de un interlocutor enfadado',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Cómo interactuar con un interlocutor enfadado',
+            hash: 't_1_5',
           },
         ],
       },
@@ -45,14 +67,35 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Telemarketing',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: '¿Qué es el telemarketing?',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Funciones del telemarketing',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Elementos del telemarketing',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Técnicas de ventas telefónicas',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Tipos de telemarketing',
+            hash: 't_2_5',
+          },
+        ],
       },
     ],
     subMenu: [
