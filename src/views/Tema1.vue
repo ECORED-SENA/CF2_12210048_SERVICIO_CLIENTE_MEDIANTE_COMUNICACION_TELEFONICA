@@ -801,10 +801,10 @@
 
 
     .row.mb-10
-          .col-lg-5.mb-3.mb-lg-0
+          .col-lg-4.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/tema1/15.svg", data-aos="zoom-in")
-          .col-lg-7
+          .col-lg-8
             .row.mt-3.align-items-start.mb-10.bg-color-2
                 p.p-4 Atender a un cliente enfadado es uno de los mayores retos en la atención telefónica. En estas situaciones, se ponen a prueba todas las habilidades del asesor o asesora: escucha activa, control emocional, empatía, comunicación clara y resolución de conflictos.
             .row.align-items-start.mb-3(data-aos="fade-left")
