@@ -28,28 +28,28 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Qué representan las quejas y reclamaciones para una empresa?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Una oportunidad de venta directa inmediata.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Una pérdida inevitable de clientes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Una oportunidad para aprender y mejorar.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un obstáculo que debe evitarse siempre.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +59,28 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Qué actitud debe evitar un asesor ante una queja del cliente??',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Tomárselo como algo personal.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Escuchar activamente al cliente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Mostrar empatía con el cliente.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Tomar nota de la situación.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +89,28 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: '¿Qué aportan las quejas a una empresa?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Información para campañas publicitarias.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Información fundamental para mejorar.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Causas para reducir personal.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Motivos para elevar los precios.',
               esCorrecta: false,
             },
           ],
@@ -120,28 +120,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuál es el riesgo principal de un cliente insatisfecho que no se queja?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'No volverá a comprar.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Realizará una queja escrita.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Solicitará un descuento.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Recomendará la empresa.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +150,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: '¿Qué efecto tienen los comentarios “boca a boca” negativos?',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Sirven como retroalimentación interna.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Son una forma de evaluación ética.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Son altamente perjudiciales para la empresa.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'No tienen gran impacto real.',
               esCorrecta: false,
             },
           ],
@@ -180,29 +180,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué permite la solución rápida de una reclamación?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Evitar multas gubernamentales.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Fidelizar al cliente.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Minimizar devoluciones de dinero.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Reducir personal en atención al cliente.',
               esCorrecta: false,
             },
           ],
@@ -212,28 +211,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Cuál es la primera fase del proceso de gestión de reclamaciones?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Evaluación de satisfacción.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Recepción de la reclamación.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Análisis del mercado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Identificación del cliente.',
               esCorrecta: false,
             },
           ],
@@ -242,29 +241,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Qué función tiene el acuse de recibo en una reclamación?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Resolver inmediatamente la queja.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Mantener informado al cliente.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ignorar quejas injustificadas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Demostrar autoridad al cliente.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +271,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: '¿Cuál debe ser el tono del asesor ante un cliente enfadado?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Firme y dominante.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Sarcástico y evasivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Tranquilo y empático.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Irónico y rápido.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +301,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: '¿Qué significa “ofrecer algo más” al cliente tras una queja?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Incrementar el precio del producto.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Ofrecer una compensación adicional.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Solicitar una nueva compra.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar que vuelva a llamar.',
               esCorrecta: false,
             },
           ],
@@ -315,20 +331,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Qué representa la curva de hostilidad?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Un indicador de venta inmediata.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Una secuencia emocional del enojo.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Una lista de objeciones frecuentes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Una estrategia de marketing directo.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,19 +361,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Cuál es una acción incorrecta al atender una queja?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Prometer lo que no se puede cumplir.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Escuchar atentamente al cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Pedir disculpas por el error.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Realizar preguntas abiertas.',
               esCorrecta: false,
             },
           ],
@@ -357,19 +391,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: '¿Qué diferencia al contact center del call center?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'No usa canales digitales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Usa múltiples canales de contacto.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Tiene menos personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Solo hace llamadas salientes.',
               esCorrecta: false,
             },
           ],
@@ -378,20 +421,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué ventaja ofrece el telemarketing?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Permite llegar a más clientes a bajo costo.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Evita cualquier tipo de objeción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reemplaza totalmente las ventas físicas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reduce la calidad del servicio.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,19 +451,179 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: '¿Cuál es un elemento básico del telemarketing?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Horario de oficina del cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Cantidad de quejas registradas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Fichero o base de datos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Cantidad de ventas diarias.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué tipo de telemarketing recibe llamadas del cliente?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: '<i>Telemarketing</i> promocional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '<i>Telemarketing</i> de entrada (in bound).',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: '<i>Telemarketing</i> por catálogo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '<i>Telemarketing</i> presencial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Cuál es una técnica para tratar objeciones?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Técnica del “sí, pero”.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Técnica de evasión total.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Técnica del silencio prolongado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Técnica de distracción verbal.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué tipo de cierre se aplica cuando el cliente no objeta nada?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Cierre directo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Cierre de prueba.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Cierre emocional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cierre defensivo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué se busca con la técnica del aplazamiento?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ignorar la objeción del cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Ganar tiempo para responder mejor.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Cancelar la llamada automáticamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '¿Qué se busca con la técnica del aplazamiento?',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Cuál es una función del telemarketing según Carrasco?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Auditoría fiscal interna.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Fidelizar clientes actuales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Gestionar recursos humanos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Diseñar nuevos productos.',
               esCorrecta: false,
             },
           ],
