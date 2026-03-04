@@ -948,7 +948,51 @@
         .col-lg-5.d-none.d-lg-flex
                   img.img-fluid(src='@/assets/curso/tema2/11.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")
 
+    //- Imagen con titulo
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto  Telemarketing de entrada (inbound)
+    //- Fin Imagen con titulo
 
+
+    p.mb-3(data-aos="fade-left") A continuación, se presenta un pódcast que analiza las múltiples utilidades del <i>telemarketing</i> en el entorno empresarial actual:
+
+
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-2             
+            .row.justify-content-center.align-items-stretch            
+              .col-lg-8.mb-4.mb-lg-0
+                .p-4.bg-color-dark-purple.br-15.h-100.d-flex.align-items-center.text-black
+                  .row.align-items-center.w-100
+                    .col-md-4.text-center
+                      img(src="@/assets/curso/tema2/podcast.svg" style="width: 150px;")
+                    .col-md-8
+                      TarjetaAudio.color-primario(
+                        texto="Utilidades del telemarketing"
+                        :audio="require('@/assets/componentes/audios/podcast1.mp3')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+
+            
+              .col-lg-4
+                figure.h-100
+                  img.h-100.w-100.br-10(src='@/assets/curso/tema2/12.png', alt='', style="object-fit: cover;")
+
+
+    .row.mb-10
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema2/13.png", data-aos="zoom-in")
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg
+          p.mb-0 El <i>telemarketing</i>, ya sea de entrada o de salida, se ha convertido en una herramienta clave dentro del <i>marketing</i> directo. Su versatilidad permite adaptarlo a diferentes objetivos comerciales, tanto en campañas de captación como en fidelización o análisis.
+        .row.mt-3.align-items-start.mb-10.bg-color-1(data-aos="fade-left")  
+            p.p-4(data-aos="fade-left") La clave de su eficacia está en saber usar el canal adecuado según el objetivo, aplicar buenas prácticas y contar con equipos humanos y tecnológicos preparados para interactuar con el cliente de forma estratégica. Dominar los distintos tipos y utilidades del <i>telemarketing</i> permite a las empresas mejorar su competitividad y fortalecer la relación con sus públicos.
+    
 
 
 

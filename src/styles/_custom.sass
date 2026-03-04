@@ -152,4 +152,63 @@ figcaption
   padding-left: 20px
 
 
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important 
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #625a70
+    color: #FFF
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.bg-color-purple-light
+  background-color: #ECE9F7
+
+
+.text-accent
+  color: #D4AF37 
+
+.br-15
+  border-radius: 15px
+
+.lista-ul--separador li
+  border-bottom: none 
+
+.bg-color-dark-purple
+  background-color: #6A5D7B
+  border: 2px solid #4D90FE
+
+.bg-color-purple-light
+  background-color: #ECE9F7
+
+.text-gold
+  color: #D4AF37
+
+.br-15
+  border-radius: 15px
+.br-10
+  border-radius: 10px
+
+.align-items-stretch
+  display: flex
+  align-items: stretch
+
+
+.tarjeta-audio.color-primario
+  background-color: white
   
