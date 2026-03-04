@@ -40,7 +40,7 @@
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Origen y evolución
     //- Fin Imagen con titulo
 
@@ -75,7 +75,7 @@
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
           h3.titulo-con-imagen__texto <i>Telemarketing</i> como parte del marketing directo
     //- Fin Imagen con titulo
 
@@ -244,7 +244,7 @@
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
           h3.titulo-con-imagen__texto ¿Qué es el <i>outsourcing?</i>
     //- Fin Imagen con titulo
 
@@ -527,7 +527,7 @@
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Recursos técnicos y logísticos necesarios
     //- Fin Imagen con titulo
 
@@ -580,7 +580,7 @@
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
           h3.titulo-con-imagen__texto  El factor humano: el teleoperador/a
     //- Fin Imagen con titulo
 
@@ -648,7 +648,7 @@
         #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.4 Elementos del telemarketing
     p.mb-3(data-aos="fade-left") González (2015) identifica cuatro pasos clave para lograr una venta efectiva por vía telefónica. Estos pasos requieren una preparación previa, capacidad de análisis, escucha activa y habilidad para generar confianza.
-    //- Fin Tema2.4
+    
 
 
     //- Titulo nivel 4 purpura
@@ -669,7 +669,7 @@
             img(src='@/assets/curso/tema2/8.png', alt='')
         
         .col-lg-7.mb-4.mb-lg-0
-          p.mb-4 Consejos para un buen abordaje
+          p.mb-4 Consejos para un buen abordaje:
           ul.lista-ul.mb-0
             li.d-flex.mb-2        
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
@@ -798,7 +798,162 @@
               p Se ofrecen dos opciones. Ej.: “¿Prefiere recibirlo el lunes o el martes?”
 
 
-    p.mb-5(data-aos="fade-left") El cierre debe ser <b>natural, oportuno y claro</b>, sin forzar al cliente ni dejar ambigüedades. El <i>telemarketing</i> es una herramienta poderosa del marketing directo, siempre que se utilicen adecuadamente sus tres pilares:
+    .bg-color-5.p-md-5.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center    
+        
+        .col-lg-7.mb-4.mb-lg-0
+          p.mb-4 El cierre debe ser <b>natural, oportuno y claro</b>, sin forzar al cliente ni dejar ambigüedades. El <i>telemarketing</i> es una herramienta poderosa del marketing directo, siempre que se utilicen adecuadamente sus tres pilares:
+          ul.lista-ul.mb-0
+            li.d-flex.mb-2        
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Ficheros organizados y actualizados.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Infraestructura técnica de calidad.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Asesores o teleoperadores capacitados, empáticos y persuasivos.
+
+        .col-lg-5
+          figure
+            img(src='@/assets/curso/tema2/9.png', alt='')
+
+    
+    .row.justify-content-center.mb-5.mt-5.overflow-hidden    
+      .col-12(data-aos="fade-up")        
+        .p-4.bg-color-3.br-15.shadow-sm.rounded-4    
+          .row.align-items-center.g-0        
+            .col-auto.pe-4
+              figure.mb-0
+                img(src='@/assets/curso/tema2/icontel.svg', alt='', style="width: 80px;")                   
+            .col
+              p.mb-0 Integrando estas bases con técnicas de persuasión, tratamiento efectivo de objeciones y estrategias de cierre, se obtienen resultados comerciales tangibles y sostenibles. El éxito del <i>telemarketing</i> radica en saber escuchar, adaptar el mensaje y actuar con estrategia.
+
+    //- Fin Tema2.4
+
+
+    //- Inicio Tema2.5
+    .row.mt-5
+        #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 2.5 Tipos de telemarketing
+    p.mb-3(data-aos="fade-left") El <i>telemarketing</i> es una técnica que permite la comunicación inmediata, directa y bidireccional entre un asesor o asesora telefónica y un cliente. Esta interacción puede tener múltiples objetivos, como informar, vender, fidelizar o investigar el mercado. El tipo de <i>telemarketing</i> se determina a partir de quién inicia el contacto. A partir de ello, se establecen dos grandes modalidades:
+ 
+
+    .row.justify-content-center.mb-5     
+      //- Tarjeta 1
+      .col-md-4.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta.bg-color-white.h-100.shadow-sm.d-flex.flex-column
+          figure.mb-0
+            img(src='@/assets/curso/tema2/card5_01.png', alt='')          
+          .text-center.bg-color-8.p-4.flex-grow-1
+            h4.mb-3 <i>Telemarketing</i> de entrada (<i>inbound</i>)
+            p.mb-0.fw-normal El cliente
+
+
+      //- Tarjeta 2
+      .col-md-4.col-lg-4(data-aos="fade-left")
+        .tarjeta.bg-color-white.h-100.shadow-sm.d-flex.flex-column
+          figure.mb-0
+            img(src='@/assets/curso/tema2/card5_02.png', alt='')          
+          .text-center.bg-color-8.p-4.flex-grow-1
+            h4.mb-3 <i>Telemarketing</i> de salida (<i>outbound</i>)
+            p.mb-0.fw-normal La empresa
+
+    //- Imagen con titulo
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto  Telemarketing de entrada (inbound)
+    //- Fin Imagen con titulo
+
+
+    p.mb-3.bg-color-1.p-4.rounded-2(data-aos="fade-left") Cuando una empresa habilita un sistema de atención al cliente, generalmente gratuito, como una línea 018000, ofrece un canal para que las personas puedan comunicarse para resolver dudas, presentar reclamaciones o formular sugerencias. Esta dinámica no solo busca atender necesidades inmediatas, sino también permite a la organización obtener información valiosa.
+
+
+    .bg-color-fondo-resaltado.mb-5.br-20.overflow-hidden      
+      .row.g-0.align-items-stretch.justify-content-center
+        .col-lg-5.d-none.d-lg-flex
+          img.img-fluid(src='@/assets/curso/tema2/10.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")
+
+        .col-12.col-lg-7.bg-color-2.p-5.p-lg-5.pe-lg-0
+          p El contacto iniciado por el cliente representa una oportunidad estratégica para mejorar la relación comercial y optimizar procesos. A través de estas interacciones, la empresa puede:
+          ul.lista-ul.mb-0
+            li.d-flex.mb-2        
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Identificar errores o debilidades en sus productos o servicios.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Recoger sugerencias que conduzcan al rediseño de ofertas.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Construir bases de datos segmentadas según intereses y necesidades reales.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Diferenciarse en el mercado gracias a un servicio al cliente eficiente y bien gestionado.
+         
+    p.mb-3(data-aos="fade-left") Contar con un canal de atención no garantiza buenos resultados por sí solo. Lo más importante es <b>cómo se gestiona</b> este canal. Por ello, muchas empresas han optado por fortalecer internamente sus departamentos de atención o bien externalizarlos a través de <i>call centers</i> especializados.
+
+    //- Imagen con titulo
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto  Telemarketing de salida (outbound)
+    //- Fin Imagen con titulo
+
+    p.mb-3(data-aos="fade-left") En este caso, es la empresa la que toma la iniciativa y se pone en contacto con los clientes. Esta modalidad se utiliza para distintos fines comerciales, como:
+
+
+    .container-fluid.p-0.overflow-hidden    
+      .row.justify-content-center.align-items-stretch.g-4.mb-5(data-aos="fade-up")        
+        //- Tarjeta 1
+        .col-12.col-sm-6.col-md-4.col-lg-3.d-flex
+          .tarjeta.bg-color-6.p-4.br-15.h-100.d-flex.flex-column.justify-content-center.w-100.shadow-sm
+            p.mb-0.text-center <b>Realizar ventas directas.</b>
+        //- Tarjeta 2
+        .col-12.col-sm-6.col-md-4.col-lg-3.d-flex
+          .tarjeta.bg-color-6.p-4.br-15.h-100.d-flex.flex-column.justify-content-center.w-100.shadow-sm
+            p.mb-0.text-center <b>Concertar entrevistas.</b>
+        //- Tarjeta 3
+        .col-12.col-sm-6.col-md-4.col-lg-3.d-flex
+          .tarjeta.bg-color-6.p-4.br-15.h-100.d-flex.flex-column.justify-content-center.w-100.shadow-sm
+            p.mb-0.text-center <b>Explorar nuevos mercados (prospección).</b>
+        //- Tarjeta 4
+        .col-12.col-sm-6.col-md-4.col-lg-3.d-flex
+          .tarjeta.bg-color-6.p-4.br-15.h-100.d-flex.flex-column.justify-content-center.w-100.shadow-sm
+            p.mb-0.text-center <b>Actualizar o depurar bases de datos.</b>
+
+    .bg-color-fondo-resaltado.mb-5.br-20.overflow-hidden      
+      .row.g-0.align-items-stretch.justify-content-center        
+        .col-12.col-lg-7.bg-color-2.p-5.p-lg-5.pe-lg-0
+          p Esta forma de telemarketing se ha consolidado como una alternativa eficaz frente a métodos tradicionales como las ventas puerta a puerta, ya que permite mayor cobertura geográfica, ahorro en recursos y una ejecución más ágil de las campañas. Las ventajas del <i>outbound telemarketing</i> son: 
+          ul.lista-ul.mb-0
+            li.d-flex.mb-2        
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Reducción de costos operativos.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Ampliación del mercado objetivo.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Incremento de la productividad comercial.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 La eficiencia del teleoperador y la correcta segmentación de los contactos son factores determinantes para el éxito de este enfoque.
+     
+
+        .col-lg-5.d-none.d-lg-flex
+                  img.img-fluid(src='@/assets/curso/tema2/11.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")
+
+
+
+
+
+
+    //- Fin Tema2.5
 
 
 
