@@ -4,7 +4,7 @@ export default {
       'Gestión de las reclamaciones y telemarketing en la atención telefónica',
     Description:
       'El componente formativo aborda la gestión de reclamaciones en la atención telefónica y el uso estratégico del telemarketing. Destaca la importancia de la satisfacción del cliente, el manejo adecuado de quejas y clientes enfadados, así como las fases del proceso de reclamación. También se analizan funciones, ventajas, tipos y elementos clave del telemarketing para mejorar la fidelización y productividad empresarial.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -14,6 +14,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
