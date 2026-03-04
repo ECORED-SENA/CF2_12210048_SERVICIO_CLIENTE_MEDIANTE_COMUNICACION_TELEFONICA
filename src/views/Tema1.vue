@@ -810,8 +810,7 @@
             .row.align-items-start.mb-3(data-aos="fade-left")
               .col-lg
               p.mt-4 La paciencia, como habilidad transversal, resulta fundamental para <b>superar obstáculos emocionales</b> y ayudar al cliente a salir de un estado de frustración hacia uno más racional, donde sea posible <b>dialogar y buscar soluciones.</b>
-            
-
+           
 
 
     //- Imagen con titulo
@@ -838,6 +837,10 @@
 
     p(data-aos="fade-left") A continuación, se presenta un video que explica, de manera estructurada y clara, las distintas etapas de la curva de hostilidad y su aplicación en la gestión estratégica de conflictos con clientes.
 
+    figure.mb-4(data-aos="fade-left")
+                  .video
+                    iframe(width="560" height="315" src="https://www.youtube.com/embed/ryqmVX0iZcE" title="Impuestos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
 
     //- Imagen con titulo
     .bg-full-width.mt-5
@@ -850,6 +853,9 @@
 
     p(data-aos="fade-left") Una vez comprendido este proceso emocional, el asesor o asesora debe aplicar ciertas estrategias específicas para abordar correctamente al cliente molesto:
 
+
+      .bg-full-width
+        .px-4.px-md-5.pb-md-3
 
       .carousel-bg
         .row.justify-content-center.mb-5.align-items-center

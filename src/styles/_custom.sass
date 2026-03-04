@@ -2,13 +2,23 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 10%
+    right: 20%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 10%
+    right: 80%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 90%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 5%    
 
 @keyframes float1
   0%
@@ -232,7 +242,7 @@ figcaption
 
 .acordion__accion__btn--a
   background-color: $color-acento-botones
-  
+
 .acordeonA
   position: relative
   background-color: #003F62
@@ -266,3 +276,27 @@ figcaption
 
 .tarjeta--boton:hover
   background-color: #FED5A7
+
+
+
+.carousel-bg .fas
+  &.fa-chevron-left, &.fa-chevron-right
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    width: 40px
+    height: 40px
+    background-color: $color-acento-contenido
+    border-radius: 50%
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    color: #000
+    font-size: 16px
+
+  @media screen and (max-width: $bp-max-md)
+    background-color: transparent !important
+    box-shadow: none !important
+    font-size: 20px !important
+
+
+.bordes
+  border: 1px solid #CBD5E0 !important

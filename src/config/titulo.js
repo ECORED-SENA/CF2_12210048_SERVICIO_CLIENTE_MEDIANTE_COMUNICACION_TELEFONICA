@@ -1,2 +1,1 @@
-module.exports =
-  'Gestión de las reclamaciones y telemarketing en la atención telefónica'
+module.exports = 'Gestión de las reclamaciones y telemarketing en la atención'
