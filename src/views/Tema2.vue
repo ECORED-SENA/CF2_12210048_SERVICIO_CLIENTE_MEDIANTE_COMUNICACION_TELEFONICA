@@ -179,7 +179,512 @@
 
     p.mb-3(data-aos="fade-left") Según Alet (2011), cuando una empresa decide implementar un servicio telefónico comercial (como el <i>telemarketing</i>), debe elegir entre dos alternativas estratégicas:
 
+   
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
+      .col-lg-12    
+        .row.g-0.br-20.overflow-hidden.shadow-sm
+          .col-md-6.bg-color-7.p-5.rounded-4
+            .row.align-items-center.mb-4
+              .col-auto
+                figure.mb-0
+                  img(src='@/assets/curso/tema2/icono-tarjeta.svg', alt='', style="width: 100px;")
+              .col
+                h3.text-white.mb-0 Desarrollo interno
+            p.text-white.mb-0.ps-2 Crear e integrar el servicio dentro de la estructura de la empresa.
+          .col-md-6.bg-color-1.p-5.rounded-4
+            .row.align-items-center.mb-4
+              .col-auto
+                figure.mb-0
+                  img(src='@/assets/curso/tema2/icono-tarjeta.svg', alt='', style="width: 100px;")
+              .col
+                h3.mb-0 Servicio externo (outsourcing)
+            p.mb-0.ps-2 Contratar a una empresa especializada que ofrezca el servicio de forma externa.
+
+    //- Titulo nivel 4 purpura
+    .bg-full-width.mt-5.mb-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen(data-aos="fade-right")                     
+          h3.titulo-purpura Dificultades del desarrollo interno       
+    //- Titulo nivel 4 purpura
+
+    p.mb-3(data-aos="fade-left") Implementar <i>telemarketing</i> desde el interior de la empresa <b>no es sencillo ni económico</b> debido al desconocimiento o falta de preparación en aspectos clave como:
+
+    
+    
+
+       
+    .bg-color-fondo-resaltado.p-4.p-md-5.mb-2
+      .row.align-items-center.justify-content-center
+        .col-auto.col-md-10.col-lg-5.mb-4.mb-lg-0
+          figure          
+            img(src='@/assets/curso/tema2/3.svg', alt='Ilustración de un agente de call center trabajando frente a su laptop')       
+        .col-12.col-md-12.col-lg-7          
+          ul.lista-ul.mb-0        
+            li.d-flex        
+              i.fas.fa-check-circle.color-icono-check.me-3(style="color:#AD9721")
+              p.mb-0 Selección y formación del personal idóneo.         
+            li.d-flex
+              i.fas.fa-check-circle.color-icono-check.me-3(style="color:#AD9721")
+              p.mb-0 Manejo de diferencias horarias según zonas geográficas.         
+            li.d-flex
+              i.fas.fa-check-circle.color-icono-check.me-3(style="color:#AD9721")
+              p.mb-0 Disponibilidad de infraestructura logística y tecnológica.
+            li.d-flex
+              i.fas.fa-check-circle.color-icono-check.me-3(style="color:#AD9721")
+              p.mb-0 Coordinación con otros departamentos internos.
+            li.d-flex
+              i.fas.fa-check-circle.color-icono-check.me-3(style="color:#AD9721")
+              p.mb-0 Definición de políticas claras de costos y objetivos de #[i marketing].
+
+
+    p.mb-3(data-aos="fade-left") Por estas razones, muchas empresas optan por <b>externalizar este servicio</b> mediante el uso de <i>outsourcing.</i>
+
+    //- Imagen con titulo
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto ¿Qué es el <i>outsourcing?</i>
+    //- Fin Imagen con titulo
+
+
+    p.mb-3(data-aos="fade-left") Valdivia (2015) define el <i>outsourcing</i> como un proceso en el cual una empresa externaliza parte de su actividad, delegándola a otra empresa especializada. En el caso del <i>telemarketing</i>, esta externalización ha dado origen a estructuras como los <i>call centers y contact centers.</i>
+
+
+    //- Titulo nivel 4 purpura
+    .bg-full-width.mt-5.mb-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen(data-aos="fade-right")                     
+          h3.titulo-purpura Call center y contact center      
+    //- Titulo nivel 4 purpura
+
+    p.mb-3(data-aos="fade-left") Según Carrasco (2014), tanto los call centers como los <i>contact centers</i> son organizaciones que se especializan en realizar y recibir comunicaciones en nombre de empresas contratantes. Pueden cubrir funciones como:
+     
+    .bg-color-fondo-resaltado.mb-5.br-20.overflow-hidden      
+      .row.g-0.align-items-stretch.justify-content-center
+        //- Columna de texto
+        .col-12.col-lg-5.bg-color-2.p-4.p-lg-5.pe-lg-0
+          ul.lista-ul.mb-0
+            li.d-flex.mb-2        
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Atención al cliente
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Gestión de reclamaciones
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Soporte técnico
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Venta telefónica
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Encuestas
+            li.d-flex
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Campañas de #[i telemarketing]
+
+        .col-lg-5.d-none.d-lg-flex
+          img.img-fluid(src='@/assets/curso/tema2/4.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")
+
+
+    p.mb-5(data-aos="fade-left") A continuación, se presentan dos conceptos clave que permiten comprender la evolución de los servicios de atención y gestión de llamadas en las organizaciones.
+
+
+
+    .row.justify-content-center.mb-5     
+      //- Tarjeta 1
+      .col-md-4.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta.bg-color-white.h-100.shadow-sm.d-flex.flex-column
+          figure.mb-0
+            img(src='@/assets/curso/tema2/card2_01.png', alt='')          
+          .text-center.bg-color-3.p-4.flex-grow-1
+            h4.mb-3 <i>Call center</i>
+            p.mb-0.fw-normal Centro de llamadas que opera principalmente por teléfono. Su función es recibir o emitir llamadas de forma directa y eficiente.
+
+
+      //- Tarjeta 2
+      .col-md-4.col-lg-4(data-aos="fade-left")
+        .tarjeta.bg-color-white.h-100.shadow-sm.d-flex.flex-column
+          figure.mb-0
+            img(src='@/assets/curso/tema2/card2_02.png', alt='')          
+          .text-center.bg-color-3.p-4.flex-grow-1
+            h4.mb-3 <i>Contact center</i>
+            p.mb-0.fw-normal Evolución del <i>call center</i>. Utiliza múltiples canales: llamadas, correos electrónicos, <i>chats</i> en línea, redes sociales, fax, etc. También se conoce como sistema de <b>comunicaciones unificadas.</b>
+
+
+    //- Titulo nivel 4 purpura
+    .bg-full-width.mt-5.mb-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen(data-aos="fade-right")                     
+          h3.titulo-purpura Ventajas del outsourcing en telemarketing     
+    //- Titulo nivel 4 purpura
+
+    p.mb-5(data-aos="fade-left") Carrasco (2014) resalta los beneficios de contratar servicios especializados:
+
+
+    
+    .container-fluid.p-0.overflow-hidden    
+      .row.justify-content-center.align-items-stretch.g-4.mb-5(data-aos="fade-up")        
+        //- Tarjeta 1
+        .col-12.col-sm-6.col-md-4.col-lg-3.d-flex
+          .tarjeta.bg-color-6.p-4.br-15.h-100.d-flex.flex-column.justify-content-center.w-100.shadow-sm
+            p.mb-0.text-center <b>Alta especialización del personal (teleoperadores).</b>
+        //- Tarjeta 2
+        .col-12.col-sm-6.col-md-4.col-lg-3.d-flex
+          .tarjeta.bg-color-6.p-4.br-15.h-100.d-flex.flex-column.justify-content-center.w-100.shadow-sm
+            p.mb-0.text-center <b>Objetividad en los resultados, al estar separados del equipo interno.</b>
+        //- Tarjeta 3
+        .col-12.col-sm-6.col-md-4.col-lg-3.d-flex
+          .tarjeta.bg-color-6.p-4.br-15.h-100.d-flex.flex-column.justify-content-center.w-100.shadow-sm
+            p.mb-0.text-center <b>Uso de recursos externos, sin necesidad de inversiones permanentes.</b>
+        //- Tarjeta 4
+        .col-12.col-sm-6.col-md-4.col-lg-3.d-flex
+          .tarjeta.bg-color-6.p-4.br-15.h-100.d-flex.flex-column.justify-content-center.w-100.shadow-sm
+            p.mb-0.text-center <b>Flexibilidad, ideal para campañas temporales o específicas.</b>
+
+    p.mb-5(data-aos="fade-left") Las empresas especializadas en <i>telemarketing</i> cuentan con toda la <b>infraestructura, experiencia y personal capacitado,</b> lo cual asegura mayor eficiencia y menores riesgos operativos.
+
+
+
+    //- Titulo nivel 4 purpura
+    .bg-full-width.mt-5.mb-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen(data-aos="fade-right")                     
+          h3.titulo-purpura Ventajas y desventajas del telemarketing 
+    //- Titulo nivel 4 purpura
+
+    p.mb-5(data-aos="fade-left") Conocer los beneficios y limitaciones del <i>telemarketing</i> permite a las empresas <b>tomar decisiones más estratégicas</b> respecto a su uso.
+
+
+    .row.justify-content-center
+      .col-md-10
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 1.
+          span  Ventajas y desventajas del telemarketing
+        .tabla-a.color-acento-botones
+          table
+            thead
+              tr
+                th(style="width: 40%") Ventajas
+                th(style="width: 60%") Desventajas / Inconvenientes
+            tbody
+              tr
+                td Método directo, flexible e interactivo.	.
+                td No permite interacción visual con el producto (el cliente no lo puede ver o tocar)..
+              tr
+                td Costes relativamen te bajos frente a otros canales.
+                td Riesgo de saturación del cliente por exceso de llamadas.
+              tr
+                td Posibilidad de lanzar campañas en corto plazo..
+                td Algunas empresas lo utilizan de forma agresiva o poco ética.
+              tr
+                td Permite personalizar el mensaje según el perfil del cliente.
+                td Falta de datos confiables o actualizados de los clientes potenciales.
+              tr
+                td Capacidad para cubrir amplios mercados.
+                td Bajo nivel de compromiso inicial por parte del cliente.
+
+    //- Titulo nivel 4 purpura
+    .bg-full-width.mt-5.mb-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen(data-aos="fade-right")                     
+          h3.titulo-purpura Enfoque estratégico 
+    //- Titulo nivel 4 purpura
+
+    p.mb-5(data-aos="fade-left") Valdivia (2015) destaca que el <i>telemarketing,</i> cuando se combina con campañas de <i>mailing</i>, fuerza de ventas y publicidad en medios masivos, se convierte en una herramienta poderosa que:
+
+    .row.justify-content-center.mb-5     
+          //- Tarjeta 1
+          .col-md-4.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+            .tarjeta.bg-color-white.h-100.shadow-sm.d-flex.flex-column
+              figure.mb-0
+                img(src='@/assets/curso/tema2/card3_01.png', alt='')          
+              .text-center.bg-color-2.p-4.flex-grow-1
+                h4.mb-3 Optimiza recursos.
+
+          //- Tarjeta 2
+          .col-md-4.col-lg-4(data-aos="fade-left")
+            .tarjeta.bg-color-white.h-100.shadow-sm.d-flex.flex-column
+              figure.mb-0
+                img(src='@/assets/curso/tema2/card3_02.png', alt='')          
+              .text-center.bg-color-2.p-4.flex-grow-1
+                h4.mb-3 Potencia los resultados comerciales.
+
+
+          //- Tarjeta 3
+          .col-md-4.col-lg-4(data-aos="fade-left")
+            .tarjeta.bg-color-white.h-100.shadow-sm.d-flex.flex-column
+              figure.mb-0
+                img(src='@/assets/curso/tema2/card3_03.png', alt='')          
+              .text-center.bg-color-2.p-4.flex-grow-1
+                h4.mb-3 Aumenta la productividad de forma rentable.
+    p.mb-5(data-aos="fade-left") La principal ventaja competitiva del <i>telemarketing</i> es su capacidad de llegar a más clientes con bajo costo, mientras que su mayor limitación es la imposibilidad de mostrar el producto directamente durante el contacto.
+
     //- Fin Tema2.1
+
+
+    //- Inicio Tema2.2
+    .row.mt-5
+        #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 2.2 Funciones del telemarketing
+    p.mb-3(data-aos="fade-left") El <i>telemarketing</i> cumple funciones clave que están directamente alineadas con los objetivos comerciales y de marketing de una empresa. Según Carrasco (2014), estas funciones no solo permiten mejorar los resultados económicos, sino también fortalecer el posicionamiento de la marca, captar nuevos clientes y fidelizar los actuales. Las principales funciones del <i>telemarketing</i> son: 
+
+
+
+      .bg--img_03.mt-5
+      .row.justify-content-center
+        .col-lg-8
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+            .row(titulo="Generar beneficios (incremento de ventas)")
+                p.mb-4 El telemarketing permite realizar numerosos contactos en poco tiempo y con bajo costo, lo que optimiza recursos y aumenta la captación de clientes, impactando directamente en las ventas.                
+                
+            .row(titulo="Dar a conocer la empresa, productos o servicios")
+                p.mb-4 Tiene mayor capacidad de penetración en hogares y negocios que otras técnicas tradicionales, facilitando una presentación detallada de lo que ofrece la empresa.
+
+            .row(titulo="Ampliar mercado en otros segmentos")
+                p.mb-4 Facilita la expansión hacia nuevos públicos, ya que puede segmentar audiencias y adaptar el mensaje según sus características, generando nuevas oportunidades de negocio.
+
+            .row(titulo="Fidelizar a los clientes actuales")
+                p.mb-4 A través del contacto directo y periódico, fortalece la relación con clientes existentes, aumentando la lealtad y la retención en el tiempo.
+
+            .row(titulo="Restar clientes a la competencia")
+                p.mb-4 La facilidad para acceder a nuevos segmentos y ofrecer propuestas atractivas puede llevar a que clientes insatisfechos con la competencia decidan cambiar de proveedor.
+              
+        .col-lg-4 
+          figure(data-aos="zoom-in")
+            img(src="@/assets/curso/tema2/5.png", alt="").img400.m-auto
+
+
+    p.mb-5(data-aos="fade-left") El <i>telemarketing</i> es mucho más que una herramienta de ventas: es un <b>instrumento estratégico</b> que permite a las empresas comunicarse de forma directa, personalizada y eficiente con su público objetivo. Su versatilidad lo convierte en un recurso ideal para:
+
+
+    .bg-color-fondo-resaltado.mb-5.br-20.overflow-hidden      
+      .row.g-0.align-items-stretch.justify-content-center
+        //- Columna de texto
+        .col-12.col-lg-5.bg-color-2.p-4.p-lg-5.pe-lg-0
+          ul.lista-ul.mb-0
+            li.d-flex.mb-2        
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Captar nuevos clientes.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Fortalecer la relación con los actuales.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Mejorar la imagen y visibilidad de la empresa.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Ganar terreno frente a la competencia.
+            
+
+        .col-lg-5.d-none.d-lg-flex
+          img.img-fluid(src='@/assets/curso/tema2/6.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")
+
+        p.mb-5.mt-2.text-center(data-aos="fade-left") Una estrategia de <i>telemarketing</i> bien planificada puede ser clave para el crecimiento sostenido de una organización.
+
+    //- Fin Tema2.2
+
+    //- Inicio Tema2.3
+    .row.mt-5
+        #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 2.3 Elementos del telemarketing
+    p.mb-3(data-aos="fade-left") Las estrategias de <i>telemarketing</i> se sustentan en tres elementos fundamentales que trabajan en conjunto para lograr sus objetivos. Según Carrasco (2014), estos elementos permiten ejecutar campañas efectivas, generar confianza en los clientes y mejorar los resultados comerciales: 
+    
+    
+    //- Carrusel
+    .bg-full-width.bg-fondo-slider.mb-3
+            .p-4.p-md-5
+              SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema2/slide1_01.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Ficheros (base de datos)
+                    p Un fichero de clientes o base de datos permite registrar y organizar la información relevante de clientes actuales y potenciales. Esta herramienta facilita el seguimiento comercial personalizado, incrementando las oportunidades de venta.
+                    
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema2/slide1_02.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Servicios técnicos y logísticos
+                    p El <i>telemarketing</i> se apoya en una infraestructura tecnológica especializada, que permite a los asesores prestar un servicio eficiente, ordenado y profesional. 
+
+                .row.align-items-center.p-4.p-md-5
+                  .col-lg-5.order-2
+                    figure
+                      img(src="@/assets/curso/tema2/slide1_03.png")
+                  .col-lg-7.order-1.mb-3.mb-lg-0
+                    h4 Teleoperador/a (equipo humano)
+                    p El asesor o asesora telefónica es la voz e imagen de la empresa ante el cliente. Además de buenas habilidades comunicativas, debe tener capacidad de persuasión para conectar con el cliente, despertar interés y cerrar ventas.
+
+
+    //- Imagen con titulo
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Recursos técnicos y logísticos necesarios
+    //- Fin Imagen con titulo
+
+
+    p.mb-5.mt-5(data-aos="fade-left") Para que el servicio de <i>telemarketing</i> funcione con eficacia, se requiere una serie de <b>equipos, sistemas y herramientas tecnológicas</b> que aseguren un entorno de trabajo funcional y orientado a resultados.
+
+
+    .bg-color-fondo-resaltado.mb-5.br-20.overflow-hidden      
+      .row.g-0.align-items-stretch.justify-content-center
+        //- Columna de texto
+        .col-12.col-lg-5.bg-color-2.p-4.p-lg-5.pe-lg-0
+          ul.lista-ul.mb-0
+            li.d-flex.mb-2        
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Estación de trabajo adecuada (mobiliario ergonómico)
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Computador en red y software especializado
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Diadema telefónica y equipo de telecomunicaciones avanzados
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Número de grupo y línea gratuita (LADA 800)
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 ACD (Automatic Call Distributor)
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Mensaje de espera / monitoreo silencioso
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Grabación de llamadas / estadísticas de llamadas
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 VRU (Voice Response Unit) / PDS (Predictive Dialing System)
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Herramientas de CRM y sistemas de respuesta automática
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Espejo (para mejorar la expresión facial y tono en llamadas)
+
+        .col-lg-5.d-none.d-lg-flex
+          img.img-fluid(src='@/assets/curso/tema2/7.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")
+
+
+    //- Imagen con titulo
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto  El factor humano: el teleoperador/a
+    //- Fin Imagen con titulo
+
+
+    p.mb-5.mt-5(data-aos="fade-left") El teleoperador es quien asume la responsabilidad de llamar, responder e interactuar con el cliente. Su rol es decisivo, ya que representa directamente la imagen de la empresa. Según González (2015), la clave para vender está en convencer al cliente de que el producto que se ofrece es la solución a sus necesidades. Para ello, el asesor debe:
+
+
+    .row.justify-content-center.mb-5     
+          //- Tarjeta 1
+          .col-md-4.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+            .tarjeta.bg-color-white.h-100.shadow-sm.d-flex.flex-column
+              figure.mb-0
+                img(src='@/assets/curso/tema2/card4_01.png', alt='')          
+              .text-center.bg-color-2.p-4.flex-grow-1
+                h4.mb-3 Conocer y creer en el producto y la empresa.
+
+
+          //- Tarjeta 2
+          .col-md-4.col-lg-4(data-aos="fade-left")
+            .tarjeta.bg-color-white.h-100.shadow-sm.d-flex.flex-column
+              figure.mb-0
+                img(src='@/assets/curso/tema2/card4_02.png', alt='')          
+              .text-center.bg-color-2.p-4.flex-grow-1
+                h4.mb-3 Identificar el problema o necesidad del cliente.
+
+
+
+          //- Tarjeta 3
+          .col-md-4.col-lg-4(data-aos="fade-left")
+            .tarjeta.bg-color-white.h-100.shadow-sm.d-flex.flex-column
+              figure.mb-0
+                img(src='@/assets/curso/tema2/card4_03.png', alt='')          
+              .text-center.bg-color-2.p-4.flex-grow-1
+                h4.mb-3 Tener una voz segura y una actitud sincera.
+
+    p.mb-5(data-aos="fade-left") El proceso de persuasión puede seguir <b>dos enfoques complementarios:</b>
+
+
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
+      .col-lg-12    
+        .row.g-0.br-20.overflow-hidden.shadow-sm
+          .col-md-6.bg-color-7.p-5.rounded-4
+            .row.align-items-center.mb-4
+              .col-auto
+                figure.mb-0
+                  img(src='@/assets/curso/tema2/icono-tarjeta.svg', alt='', style="width: 100px;")
+              .col
+                h3.text-white.mb-0 Racional
+            p.text-white.mb-0.ps-2 Apela a la lógica, argumentos objetivos.
+
+          .col-md-6.bg-color-1.p-5.rounded-4
+            .row.align-items-center.mb-4
+              .col-auto
+                figure.mb-0
+                  img(src='@/assets/curso/tema2/icono-tarjeta.svg', alt='', style="width: 100px;")
+              .col
+                h3.mb-0 Emocional
+            p.mb-0.ps-2 Apela a sentimientos, valores y empatía.
+
+
+    //- Fin Tema2.3
+
+    //- Inicio Tema2.4
+    .row.mt-5
+        #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 2.4 Elementos del telemarketing
+    p.mb-3(data-aos="fade-left") González (2015) identifica cuatro pasos clave para lograr una venta efectiva por vía telefónica. Estos pasos requieren una preparación previa, capacidad de análisis, escucha activa y habilidad para generar confianza.
+    //- Fin Tema2.4
+
+
+    //- Titulo nivel 4 purpura
+    .bg-full-width.mt-4
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-2(data-aos="fade-right")                     
+          h3.titulo-purpura Abordaje          
+    //- Titulo nivel 4 purpura
+    
+    p.mb-3(data-aos="fade-left") Muchos errores ocurren cuando el vendedor intenta cerrar una venta demasiado pronto. En esta etapa, el objetivo no es vender, sino <b>crear interés</b> y abrir la puerta al diálogo.
+
+
+
+    .bg-color-5.p-md-5.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-5
+          figure
+            img(src='@/assets/curso/tema2/8.png', alt='')
+        
+        .col-lg-7.mb-4.mb-lg-0
+          p.mb-4 Consejos para un buen abordaje
+          ul.lista-ul.mb-0
+            li.d-flex.mb-2        
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 EInvestigar previamente al cliente.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 	Iniciar con un tema que capte la atención.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Planificar la llamada y sus posibles respuestas.
+            li.d-flex.mb-2
+              i.fas.fa-check-circle.me-3(style="color:#AD9721")
+              p.mb-0 Revisar el historial del cliente y los productos ya adquiridos.
+
+
 
 
 </template>
