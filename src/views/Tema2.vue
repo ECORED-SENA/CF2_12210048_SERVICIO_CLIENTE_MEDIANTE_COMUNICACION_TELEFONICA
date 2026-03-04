@@ -655,7 +655,7 @@
     .bg-full-width.mt-4
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-2(data-aos="fade-right")                     
-          h3.titulo-purpura Abordaje          
+          h3.titulo-purpura a. Abordaje          
     //- Titulo nivel 4 purpura
     
     p.mb-3(data-aos="fade-left") Muchos errores ocurren cuando el vendedor intenta cerrar una venta demasiado pronto. En esta etapa, el objetivo no es vender, sino <b>crear interés</b> y abrir la puerta al diálogo.
@@ -683,6 +683,122 @@
             li.d-flex.mb-2
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
               p.mb-0 Revisar el historial del cliente y los productos ya adquiridos.
+
+    //- Titulo nivel 4 purpura
+    .bg-full-width.mt-4
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-2(data-aos="fade-right")                     
+          h3.titulo-purpura b. Identificación de necesidades          
+    //- Titulo nivel 4 purpura
+    
+    p.mb-3(data-aos="fade-left") Esta etapa permite conocer lo que el cliente realmente necesita, lo que da pie a un argumento de venta más sólido y enfocado.
+
+
+    //- Pestanas tarjetas
+    container.tarjeta.p-4.p-md-5
+
+          TabsA.color-acento-botones
+            .tarjeta.p-5.bg-color-5(titulo="Directa")
+              h4 Directa
+              p ¿Prefiere la entrega esta semana?/ ¿Cerramos el trato?
+
+            .tarjeta.p-5.bg-color-5(titulo="Indirecta")
+              h4 Indirecta
+              p ¿Qué opina sobre este modelo?” / ¿La máquina es electrónica?
+
+    p.mb-5(data-aos="fade-left") Las preguntas directas son ideales tanto en la <b>fase de identificación</b> como en el <b>cierre</b>. Las indirectas permiten descubrir más sobre el cliente sin presionarlo.
+
+
+
+    //- Titulo nivel 4 purpura
+    .bg-full-width.mt-4
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-2(data-aos="fade-right")                     
+          h3.titulo-purpura c. Tratamiento de objeciones        
+    //- Titulo nivel 4 purpura
+    
+    p.mb-3(data-aos="fade-left") Las objeciones no deben tomarse como obstáculos, sino como oportunidades para aclarar dudas y fortalecer el argumento de venta.
+
+
+      .carousel-bg
+        .row.justify-content-center.mb-1.align-items-center
+          .col-lg-12.mb-3.mb-lg-0.order-lg-2
+            SlyderF(columnas="col-md-4 col-xl-4")
+              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                img(src='@/assets/curso/tema2/iconcard1_01.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center Repetir la objeción
+                p.card-text.text-center
+                  | Entiendo que le preocupa el precio…
+
+              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                img(src='@/assets/curso/tema2/iconcard1_02.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center Técnica del sí, pero
+                p.card-text.text-center
+                  | Sí, es costosa, pero su durabilidad compensa la inversión.
+              
+              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                img(src='@/assets/curso/tema2/iconcard1_03.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center Técnica del por qué
+                p.card-text.text-center
+                  | ¿Con qué producto lo está comparando?
+
+              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                img(src='@/assets/curso/tema2/iconcard1_04.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center Aplazamiento
+                p.card-text.text-center
+                  | Le responderé más adelante, pero antes permítame comentarle que…
+
+              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                img(src='@/assets/curso/tema2/iconcard1_05.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center Negativa directa
+                p.card-text.text-center
+                  | No, el producto no es de mala calidad.
+
+              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                img(src='@/assets/curso/tema2/iconcard1_06.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center Técnica del boomerang
+                p.card-text.text-center
+                  | Es más cara, pero ofrece más beneficios.
+
+              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                img(src='@/assets/curso/tema2/iconcard1_07.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center Redirección con otro enfoque
+                p.card-text.text-center
+                  | Mirándolo desde otra perspectiva…
+
+              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                img(src='@/assets/curso/tema2/iconcard1_08.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center Técnica preventiva
+                p.card-text.text-center
+                  | Usted podría preguntarse si tiene garantía… y sí, incluye 2 años.    
+
+    p.mb-3(data-aos="fade-left") La clave está en <b>escuchar atentamente</b>, no discutir, dejar participar al cliente y responder con argumentos seguros.                                                  
+
+    //- Titulo nivel 4 purpura
+    .bg-full-width.mt-4
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-2(data-aos="fade-right")                     
+          h3.titulo-purpura d. Cierre de la venta     
+    //- Titulo nivel 4 purpura
+    
+    p.mb-3(data-aos="fade-left") El cierre es el momento decisivo en el que se concretan los acuerdos. Existen diferentes formas de cerrar, según el tipo de cliente y el desarrollo de la conversación.
+
+
+    //- Pestanas tarjetas
+    container.tarjeta.p-4.p-md-5
+
+          TabsA.color-acento-botones
+            .tarjeta.p-5.bg-color-5(titulo="Cierre directo")
+              h4 Cierre directo
+              p El cliente no presenta objeciones. Ej.: “Perfecto, entonces procesamos el pedido.”
+
+
+            .tarjeta.p-5.bg-color-5(titulo="Cierre alternativo")
+              h4 Cierre alternativo
+              p Se ofrecen dos opciones. Ej.: “¿Prefiere recibirlo el lunes o el martes?”
+
+
+    p.mb-5(data-aos="fade-left") El cierre debe ser <b>natural, oportuno y claro</b>, sin forzar al cliente ni dejar ambigüedades. El <i>telemarketing</i> es una herramienta poderosa del marketing directo, siempre que se utilicen adecuadamente sus tres pilares:
 
 
 
