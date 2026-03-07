@@ -59,7 +59,7 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué actitud debe evitar un asesor ante una queja del cliente??',
+            '¿Qué actitud debe evitar un asesor ante una queja del cliente?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -352,7 +352,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Una estrategia de marketing directo.',
+              texto: 'Una estrategia de <i>marketing</i> directo.',
               esCorrecta: false,
             },
           ],
@@ -391,7 +391,8 @@ export default {
         },
         {
           id: 13,
-          texto: '¿Qué diferencia al contact center del call center?',
+          texto:
+            '¿Qué diferencia al <i>contact center</i> del <i>call center</i>?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -421,7 +422,7 @@ export default {
         },
         {
           id: 14,
-          texto: '¿Qué ventaja ofrece el telemarketing?',
+          texto: '¿Qué ventaja ofrece el <i>telemarketing</i>?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -451,7 +452,7 @@ export default {
         },
         {
           id: 15,
-          texto: '¿Cuál es un elemento básico del telemarketing?',
+          texto: '¿Cuál es un elemento básico del <em>telemarketing</em>?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -481,7 +482,8 @@ export default {
         },
         {
           id: 16,
-          texto: '¿Qué tipo de telemarketing recibe llamadas del cliente?',
+          texto:
+            '¿Qué tipo de <i>telemarketing</i> recibe llamadas del cliente?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -492,7 +494,7 @@ export default {
             },
             {
               id: 'b',
-              texto: '<i>Telemarketing</i> de entrada (in bound).',
+              texto: '<i>Telemarketing</i> de entrada (<i>in bound</i>).',
               esCorrecta: true,
             },
             {
@@ -602,7 +604,8 @@ export default {
         },
         {
           id: 20,
-          texto: '¿Cuál es una función del telemarketing según Carrasco?',
+          texto:
+            '¿Cuál es una función del <i>telemarketing</i> según Carrasco?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [

@@ -17,7 +17,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 El personal encargado de la atención telefónica debe desarrollar habilidades comunicativas, empatía y control emocional para manejar situaciones difíciles, especialmente cuando se trata de clientes insatisfechos o molestos. La forma en que se responde a una queja puede convertir una experiencia negativa en una oportunidad para generar confianza y lealtad. Por ello, es clave contar con procedimientos claros y herramientas efectivas en la gestión de reclamaciones.
     
-    p.mb-3 Además, el telemarketing ha surgido como una técnica esencial para ampliar mercados, captar nuevos clientes y reforzar la presencia comercial de las empresas. Al integrar estrategias de comunicación directa con una atención personalizada, el telemarketing permite no solo ofrecer productos o servicios, sino también escuchar activamente al cliente, anticiparse a sus necesidades y brindar soluciones inmediatas.
+    p.mb-3 Además, el <i>telemarketing</i> ha surgido como una técnica esencial para ampliar mercados, captar nuevos clientes y reforzar la presencia comercial de las empresas. Al integrar estrategias de comunicación directa con una atención personalizada, el <i>telemarketing</i> permite no solo ofrecer productos o servicios, sino también escuchar activamente al cliente, anticiparse a sus necesidades y brindar soluciones inmediatas.
 
 
 </template>

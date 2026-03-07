@@ -7,17 +7,17 @@
 
     p.mt-2
       strong Síntesis:
-      |  Síntesis: Gestión de las reclamaciones y telemarketing en la atención telefónica
+      |  Síntesis: Gestión de las reclamaciones y <i>telemarketing</i> en la atención telefónica.
     
 
-    p.mt-5 A continuación, se presenta a manera de síntesis, un esquema que articula los elementos principales abordados en el desarrollo del componente formativo."
+    p.mt-5 A continuación, se presenta a manera de síntesis un esquema que articula los elementos principales abordados en el desarrollo del componente formativo.
 
     
 
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre la gestión de reclamaciones y telemarketing en la atención telefónica que organiza temas como la importancia de las quejas, pautas ante reclamaciones, manejo de interlocutores enojados, tipos y funciones del telemarketing, técnicas de venta telefónica y sus utilidades, incluyendo encuestas, análisis de mercado y cierre de ventas. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre la gestión de reclamaciones y <i>telemarketing</i> en la atención telefónica que organiza temas como la importancia de las quejas, pautas ante reclamaciones, manejo de interlocutores enojados, tipos y funciones del telemarketing, técnicas de venta telefónica y sus utilidades, incluyendo encuestas, análisis de mercado y cierre de ventas. ")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -1,9 +1,9 @@
 export default {
   global: {
     Name:
-      'Gestión de las reclamaciones y telemarketing en la atención telefónica',
+      'Gestión de las reclamaciones y <i>telemarketing</i> en la atención telefónica',
     Description:
-      'El componente formativo aborda la gestión de reclamaciones en la atención telefónica y el uso estratégico del telemarketing. Destaca la importancia de la satisfacción del cliente, el manejo adecuado de quejas y clientes enfadados, así como las fases del proceso de reclamación. También se analizan funciones, ventajas, tipos y elementos clave del telemarketing para mejorar la fidelización y productividad empresarial.',
+      'El componente formativo aborda la gestión de reclamaciones en la atención telefónica y el uso estratégico del <i>telemarketing</i>. Destaca la importancia de la satisfacción del cliente, el manejo adecuado de quejas y clientes enfadados, así como las fases del proceso de reclamación. También se analizan funciones, ventajas, tipos y elementos clave del <i>telemarketing</i> para mejorar la fidelización y productividad empresarial.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -75,22 +75,22 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Telemarketing',
+        titulo: '<i>telemarketing</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: '¿Qué es el telemarketing?',
+            titulo: '¿Qué es el <i>telemarketing</i>?',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Funciones del telemarketing',
+            titulo: 'Funciones del <i>telemarketing</i>',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Elementos del telemarketing',
+            titulo: 'Elementos del <i>telemarketing</i>',
             hash: 't_2_3',
           },
           {
@@ -100,7 +100,7 @@ export default {
           },
           {
             numero: '2.5',
-            titulo: 'Tipos de telemarketing',
+            titulo: 'Tipos de <i>telemarketing</i>',
             hash: 't_2_5',
           },
         ],
@@ -125,11 +125,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -137,7 +132,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/12210048_CF2_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -166,12 +161,12 @@ export default {
         'Confirmación que se entrega al cliente para informarle que su reclamación fue recibida y está en proceso de análisis.',
     },
     {
-      termino: 'Call center',
+      termino: '<i>Call center</i>',
       significado:
         'Centro especializado en la atención y realización de llamadas telefónicas para ofrecer servicios como soporte, ventas o atención al cliente.',
     },
     {
-      termino: 'Contact center',
+      termino: '<i>Contact center</i>',
       significado:
         'Sistema de atención al cliente que integra varios canales de comunicación, como llamadas, correos electrónicos, chats y redes sociales.',
     },
@@ -206,7 +201,7 @@ export default {
         'Percepción positiva que experimenta el cliente cuando sus necesidades y expectativas son atendidas adecuadamente por una empresa.',
     },
     {
-      termino: 'Telemarketing',
+      termino: '<i>Telemarketing</i>',
       significado:
         'Técnica de mercadeo directo que utiliza medios de comunicación, especialmente el teléfono, para promocionar productos, servicios o brindar atención al cliente.',
     },
@@ -219,7 +214,7 @@ export default {
     },
     {
       referencia:
-        'Alet, J. (2011). Marketing directo e interactivo (2.ª ed.). ESIC Editorial.',
+        'Alet, J. (2011). <i>Marketing</i> directo e interactivo (2.ª ed.). ESIC Editorial.',
       link: '',
     },
     {
@@ -235,11 +230,11 @@ export default {
     },
     {
       referencia:
-        'González, J. (2015). Aprende a vender profesionalmente y el telemarketing en las ventas. IT Campus Academy.',
+        'González, J. (2015). Aprende a vender profesionalmente y el <i>telemarketing</i> en las ventas. IT Campus Academy.',
       link: '',
     },
     {
-      referencia: 'Hernández, A. (2016). Marketing directo.',
+      referencia: 'Hernández, A. (2016). <i>Marketing</i> directo.',
       link: '',
     },
     {
@@ -262,12 +257,12 @@ export default {
       link: '',
     },
     {
-      referencia: 'Palos Sánchez, P. (2013). Manual de telemarketing.',
+      referencia: 'Palos Sánchez, P. (2013). Manual de <i>telemarketing</i>.',
       link: '',
     },
     {
       referencia:
-        'Pote, M., y Martínez, L. (2015). Diferencias entre call center y contact center.',
+        'Pote, M., y Martínez, L. (2015). Diferencias entre <i>call center y contact center</i>.',
       link: '',
     },
     {

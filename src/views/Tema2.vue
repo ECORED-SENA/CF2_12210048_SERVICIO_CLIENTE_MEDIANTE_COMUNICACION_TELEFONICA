@@ -20,15 +20,15 @@
     //- Inicio Tema2.1
     .row.mt-5
         #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 2.1 ¿Qué es el telemarketing?
+          h2 2.1 ¿Qué es el <i>telemarketing</i>?
     
-    p.mb-3(data-aos="fade-left") El telemarketing es un método de comercialización de productos y servicios a través de distintos canales de comunicación, como el teléfono, el email o plataformas digitales.
+    p.mb-3(data-aos="fade-left") El <i>telemarketing</i> es un método de comercialización de productos y servicios a través de distintos canales de comunicación, como el teléfono, el email o plataformas digitales.
     
 
     .bg-color-2.p-md-5.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
         .col-lg-7.mb-4.mb-lg-0
-          p.mb-4 Actualmente, esta técnica ha evolucionado significativamente. Ya no se limita únicamente a hacer llamadas telefónicas para vender, sino que forma parte de <b>estrategias más amplias de <i>marketing directo</i></b>, apoyadas por herramientas tecnológicas avanzadas. Estas permiten a las empresas <b>llegar a clientes potenciales de forma segmentada, ágil y personalizada,</b> utilizando múltiples canales como redes sociales, aplicaciones de mensajería, <i>chatbots</i> y servicios de atención omnicanal.
+          p.mb-4 Actualmente, esta técnica ha evolucionado significativamente. Ya no se limita únicamente a hacer llamadas telefónicas para vender, sino que forma parte de <b>estrategias más amplias de <i>marketing</i> directo</b>, apoyadas por herramientas tecnológicas avanzadas. Estas permiten a las empresas <b>llegar a clientes potenciales de forma segmentada, ágil y personalizada,</b> utilizando múltiples canales como redes sociales, aplicaciones de mensajería, <i>chatbots</i> y servicios de atención omnicanal.
           
         .col-lg-5
           figure
@@ -44,7 +44,7 @@
           h3.titulo-con-imagen__texto Origen y evolución
     //- Fin Imagen con titulo
 
-    p.mb-3(data-aos="fade-left") El uso del teléfono como herramienta comercial data desde sus primeros años, pero fue en 1962 cuando la marca Ford realizó una exitosa campaña telefónica, marcando el inicio formal del telemarketing como estrategia empresarial.
+    p.mb-3(data-aos="fade-left") El uso del teléfono como herramienta comercial data desde sus primeros años, pero fue en 1962 cuando la marca Ford realizó una exitosa campaña telefónica, marcando el inicio formal del <i>telemarketing</i> como estrategia empresarial.
 
     
     .row.justify-content-center.mb-5     
@@ -64,7 +64,7 @@
           figure.mb-0
             img(src='@/assets/curso/tema2/card1_02.png', alt='')          
           .text-center.bg-color-2.p-4.flex-grow-1
-            h4.mb-3 Marketing
+            h4.mb-3 <i>Marketing</i>
             p.mb-0.fw-normal Conjunto de acciones dirigidas a satisfacer al cliente mediante el diseño del producto, fijación de precios, elección de canales de distribución y técnicas de comunicación.
 
     p.mb-3(data-aos="fade-left") Por lo tanto, <i>telemarketing</i> es la aplicación de las técnicas del <i>marketing</i> directo a distancia, utilizando canales como el teléfono o medios digitales.
@@ -76,7 +76,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto <i>Telemarketing</i> como parte del marketing directo
+          h3.titulo-con-imagen__texto <i>Telemarketing</i> como parte del <i>marketing</i> directo
     //- Fin Imagen con titulo
 
     p.mb-3(data-aos="fade-left") Según Hernández (2016), el <i>marketing</i> directo es un conjunto de técnicas que facilitan el contacto inmediato y personalizado con compradores potenciales, previamente segmentados. En esta línea, Alet (2011), en su obra <i>Marketing</i> Directo e Interactivo, afirma que el <i>telemarketing</i> es el medio más importante dentro del <i>marketing</i> directo.
@@ -85,7 +85,7 @@
       .bg-full-width.mt-4
         .px-4.px-md-5.pb-md-3
         .titulo-con-imagen.mb-5(data-aos="fade-right")                     
-            h3.titulo-purpura Formas de marketing directo            
+            h3.titulo-purpura Formas de&nbsp;<i>marketing</i> &nbsp;directo            
       //- Titulo nivel 4 purpura
     
     p.mb-3(data-aos="fade-left") El <i>telemarketing</i> forma parte de un conjunto más amplio de estrategias de <i>marketing</i> directo que permiten a las empresas conectar con sus clientes de forma personalizada:
@@ -102,52 +102,52 @@
                 h4 Ventas en persona
                 p Interacción cara a cara con el cliente.                     
 
-          .py-3.py-md-4(titulo="Marketing por correo directo")
+          .py-3.py-md-4(titulo="<i>Marketing</i> por correo directo")
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema2/pestana1_02.png', alt='')
               .col-md-6
-                h4 Marketing por correo directo
+                h4 <i>Marketing</i> por correo directo
                 p Envío de mensajes promocionales al domicilio o correo electrónico del cliente.
 
-          .py-3.py-md-4(titulo="Marketing por catálogo")
+          .py-3.py-md-4(titulo="<i>Marketing</i> por catálogo")
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema2/pestana1_03.png', alt='')
               .col-md-6
-                h4 Marketing por catálogo
+                h4 <i>Marketing</i> por catálogo
                 p Envío de catálogos físicos o digitales con productos ofertados.
 
-          .py-3.py-md-4(titulo="Telemarketing")
+          .py-3.py-md-4(titulo="<i>Telemarketing</i>")
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema2/pestana1_04.png', alt='')
               .col-md-6
-                h4 Telemarketing
+                h4 <i>Telemarketing</i>
                 p Llamadas o contactos directos por teléfono u otros canales remotos.
 
 
       .container.tarjeta.tarjeta--blanca.p-4.p-md-5
         TabsC.color-acento-contenido.mt-1
-          .py-3.py-md-4(titulo="Marketing por televisión de respuesta directa")
+          .py-3.py-md-4(titulo="<i>Marketing</i> por televisión de respuesta directa")
             .row
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema2/pestana2_01.png', alt='')
               .col-md-6.mb-4.mb-md-0
-                h4 Marketing por televisión de respuesta directa
+                h4 <i>Marketing</i> por televisión de respuesta directa
                 p Comerciales que incluyen medios de contacto inmediato como líneas telefónicas.                   
 
-          .py-3.py-md-4(titulo="Marketing en quioscos")
+          .py-3.py-md-4(titulo="<i>Marketing</i> en quioscos")
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema2/pestana2_02.png', alt='')
               .col-md-6
-                h4 Marketing en quioscos
+                h4 <i>Marketing</i> en quioscos
                 p Promoción de productos mediante pantallas o módulos interactivos.
 
           .py-3.py-md-4(titulo="Nuevas tecnologías digitales")
@@ -159,16 +159,16 @@
                 h4 Nuevas tecnologías digitales
                 p Uso de dispositivos inteligentes y asistentes virtuales.
 
-          .py-3.py-md-4(titulo="Marketing en línea")
+          .py-3.py-md-4(titulo="<i>Marketing</i> en línea")
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema2/pestana2_04.png', alt='')
               .col-md-6
-                h4 Marketing en línea
+                h4 <i>Marketing</i> en línea
                 p Estrategias en internet como email <i>marketing</i>, <i>ads</i> y redes sociales.
 
-    p.mb-3(data-aos="fade-left") El telemarketing es una herramienta clave en el entorno empresarial moderno. Su correcta aplicación permite no solo incrementar las ventas, sino también construir relaciones más sólidas con los clientes, adaptándose a sus necesidades y preferencias de comunicación
+    p.mb-3(data-aos="fade-left") El <i>Telemarketing</i> es una herramienta clave en el entorno empresarial moderno. Su correcta aplicación permite no solo incrementar las ventas, sino también construir relaciones más sólidas con los clientes, adaptándose a sus necesidades y preferencias de comunicación.
 
       //- Titulo nivel 4 purpura
       .bg-full-width.mt-4
@@ -197,7 +197,7 @@
                 figure.mb-0
                   img(src='@/assets/curso/tema2/icono-tarjeta.svg', alt='', style="width: 100px;")
               .col
-                h3.mb-0 Servicio externo (outsourcing)
+                h3.mb-0 Servicio externo (<i>outsourcing</i>)
             p.mb-0.ps-2 Contratar a una empresa especializada que ofrezca el servicio de forma externa.
 
     //- Titulo nivel 4 purpura
@@ -217,7 +217,7 @@
       .row.align-items-center.justify-content-center
         .col-auto.col-md-10.col-lg-5.mb-4.mb-lg-0
           figure          
-            img(src='@/assets/curso/tema2/3.svg', alt='Ilustración de un agente de call center trabajando frente a su laptop')       
+            img(src='@/assets/curso/tema2/3.svg', alt='')       
         .col-12.col-md-12.col-lg-7          
           ul.lista-ul.mb-0        
             li.d-flex        
@@ -256,10 +256,10 @@
     .bg-full-width.mt-5.mb-5
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen(data-aos="fade-right")                     
-          h3.titulo-purpura Call center y contact center      
+          h3.titulo-purpura <i>Call center y contact center</i>      
     //- Titulo nivel 4 purpura
 
-    p.mb-3(data-aos="fade-left") Según Carrasco (2014), tanto los call centers como los <i>contact centers</i> son organizaciones que se especializan en realizar y recibir comunicaciones en nombre de empresas contratantes. Pueden cubrir funciones como:
+    p.mb-3(data-aos="fade-left") Según Carrasco (2014), tanto los <i>call centers</i> como los <i>contact centers</i> son organizaciones que se especializan en realizar y recibir comunicaciones en nombre de empresas contratantes. Pueden cubrir funciones como:
      
     .bg-color-fondo-resaltado.mb-5.br-20.overflow-hidden      
       .row.g-0.align-items-stretch.justify-content-center
@@ -318,7 +318,7 @@
     .bg-full-width.mt-5.mb-5
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen(data-aos="fade-right")                     
-          h3.titulo-purpura Ventajas del outsourcing en telemarketing     
+          h3.titulo-purpura Ventajas del&nbsp;<i>outsourcing</i>&nbsp;en&nbsp;<i>telemarketing</i>     
     //- Titulo nivel 4 purpura
 
     p.mb-5(data-aos="fade-left") Carrasco (2014) resalta los beneficios de contratar servicios especializados:
@@ -352,7 +352,7 @@
     .bg-full-width.mt-5.mb-5
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen(data-aos="fade-right")                     
-          h3.titulo-purpura Ventajas y desventajas del telemarketing 
+          h3.titulo-purpura Ventajas y desventajas del&nbsp;<i>telemarketing</i> 
     //- Titulo nivel 4 purpura
 
     p.mb-5(data-aos="fade-left") Conocer los beneficios y limitaciones del <i>telemarketing</i> permite a las empresas <b>tomar decisiones más estratégicas</b> respecto a su uso.
@@ -362,7 +362,7 @@
       .col-md-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 1.
-          span  Ventajas y desventajas del telemarketing
+          span  Ventajas y desventajas del <i>telemarketing</i>
         .tabla-a.color-acento-botones
           table
             thead
@@ -371,13 +371,13 @@
                 th(style="width: 60%") Desventajas / Inconvenientes
             tbody
               tr
-                td Método directo, flexible e interactivo.	.
-                td No permite interacción visual con el producto (el cliente no lo puede ver o tocar)..
+                td Método directo, flexible e interactivo.
+                td No permite interacción visual con el producto (el cliente no lo puede ver o tocar).
               tr
-                td Costes relativamen te bajos frente a otros canales.
+                td Costes relativamente bajos frente a otros canales.
                 td Riesgo de saturación del cliente por exceso de llamadas.
               tr
-                td Posibilidad de lanzar campañas en corto plazo..
+                td Posibilidad de lanzar campañas en corto plazo.
                 td Algunas empresas lo utilizan de forma agresiva o poco ética.
               tr
                 td Permite personalizar el mensaje según el perfil del cliente.
@@ -428,8 +428,8 @@
     //- Inicio Tema2.2
     .row.mt-5
         #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 2.2 Funciones del telemarketing
-    p.mb-3(data-aos="fade-left") El <i>telemarketing</i> cumple funciones clave que están directamente alineadas con los objetivos comerciales y de marketing de una empresa. Según Carrasco (2014), estas funciones no solo permiten mejorar los resultados económicos, sino también fortalecer el posicionamiento de la marca, captar nuevos clientes y fidelizar los actuales. Las principales funciones del <i>telemarketing</i> son: 
+          h2 2.2 Funciones del <i>telemarketing</i>
+    p.mb-3(data-aos="fade-left") El <i>telemarketing</i> cumple funciones clave que están directamente alineadas con los objetivos comerciales y de <i>marketing</i> de una empresa. Según Carrasco (2014), estas funciones no solo permiten mejorar los resultados económicos, sino también fortalecer el posicionamiento de la marca, captar nuevos clientes y fidelizar los actuales. Las principales funciones del <i>telemarketing</i> son: 
 
 
 
@@ -438,7 +438,7 @@
         .col-lg-8
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Generar beneficios (incremento de ventas)")
-                p.mb-4 El telemarketing permite realizar numerosos contactos en poco tiempo y con bajo costo, lo que optimiza recursos y aumenta la captación de clientes, impactando directamente en las ventas.                
+                p.mb-4 El <i>telemarketing</i> permite realizar numerosos contactos en poco tiempo y con bajo costo, lo que optimiza recursos y aumenta la captación de clientes, impactando directamente en las ventas.                
                 
             .row(titulo="Dar a conocer la empresa, productos o servicios")
                 p.mb-4 Tiene mayor capacidad de penetración en hogares y negocios que otras técnicas tradicionales, facilitando una presentación detallada de lo que ofrece la empresa.
@@ -480,7 +480,7 @@
             
 
         .col-lg-5.d-none.d-lg-flex
-          img.img-fluid(src='@/assets/curso/tema2/6.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")
+          img.img-fluid(src='@/assets/curso/tema2/6.png', alt='', style="width: 100%; object-fit: cover; object-position: left center;")
 
         p.mb-5.mt-2.text-center(data-aos="fade-left") Una estrategia de <i>telemarketing</i> bien planificada puede ser clave para el crecimiento sostenido de una organización.
 
@@ -554,7 +554,7 @@
               p.mb-0 Número de grupo y línea gratuita (LADA 800)
             li.d-flex.mb-2
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
-              p.mb-0 ACD (Automatic Call Distributor)
+              p.mb-0 ACD (<i>Automatic Call Distributor</i>)
             li.d-flex.mb-2
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
               p.mb-0 Mensaje de espera / monitoreo silencioso
@@ -563,7 +563,7 @@
               p.mb-0 Grabación de llamadas / estadísticas de llamadas
             li.d-flex.mb-2
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
-              p.mb-0 VRU (Voice Response Unit) / PDS (Predictive Dialing System)
+              p.mb-0 VRU (<i>Voice Response Unit</i>) / PDS (<i>Predictive Dialing System</i>)
             li.d-flex.mb-2
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
               p.mb-0 Herramientas de CRM y sistemas de respuesta automática
@@ -572,7 +572,7 @@
               p.mb-0 Espejo (para mejorar la expresión facial y tono en llamadas)
 
         .col-lg-5.d-none.d-lg-flex
-          img.img-fluid(src='@/assets/curso/tema2/7.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")
+          img.img-fluid(src='@/assets/curso/tema2/7.png', alt='', style="width: 100%; object-fit: cover; object-position: left center;")
 
 
     //- Imagen con titulo
@@ -646,7 +646,7 @@
     //- Inicio Tema2.4
     .row.mt-5
         #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 2.4 Elementos del telemarketing
+          h2 2.4 Técnicas de ventas telefónicas
     p.mb-3(data-aos="fade-left") González (2015) identifica cuatro pasos clave para lograr una venta efectiva por vía telefónica. Estos pasos requieren una preparación previa, capacidad de análisis, escucha activa y habilidad para generar confianza.
     
 
@@ -673,7 +673,7 @@
           ul.lista-ul.mb-0
             li.d-flex.mb-2        
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
-              p.mb-0 EInvestigar previamente al cliente.
+              p.mb-0 Investigar previamente al cliente.
             li.d-flex.mb-2
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
               p.mb-0 	Iniciar con un tema que capte la atención.
@@ -700,7 +700,7 @@
           TabsA.color-acento-botones
             .tarjeta.p-5.bg-color-5(titulo="Directa")
               h4 Directa
-              p ¿Prefiere la entrega esta semana?/ ¿Cerramos el trato?
+              p ¿Prefiere la entrega esta semana? / ¿Cerramos el trato?
 
             .tarjeta.p-5.bg-color-5(titulo="Indirecta")
               h4 Indirecta
@@ -726,49 +726,49 @@
             SlyderF(columnas="col-md-4 col-xl-4")
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema2/iconcard1_01.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Repetir la objeción
+                h4.card-title.text-center.mb-4 Repetir la objeción
                 p.card-text.text-center
                   | Entiendo que le preocupa el precio…
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema2/iconcard1_02.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Técnica del sí, pero
+                h4.card-title.text-center.mb-4 Técnica del sí, pero
                 p.card-text.text-center
                   | Sí, es costosa, pero su durabilidad compensa la inversión.
               
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema2/iconcard1_03.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Técnica del por qué
+                h4.card-title.text-center.mb-4 Técnica del por qué
                 p.card-text.text-center
                   | ¿Con qué producto lo está comparando?
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema2/iconcard1_04.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Aplazamiento
+                h4.card-title.text-center.mb-4 Aplazamiento
                 p.card-text.text-center
                   | Le responderé más adelante, pero antes permítame comentarle que…
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema2/iconcard1_05.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Negativa directa
+                h4.card-title.text-center.mb-4 Negativa directa
                 p.card-text.text-center
                   | No, el producto no es de mala calidad.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema2/iconcard1_06.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Técnica del boomerang
+                h4.card-title.text-center.mb-4 Técnica del <i>boomerang</i>
                 p.card-text.text-center
                   | Es más cara, pero ofrece más beneficios.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema2/iconcard1_07.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Redirección con otro enfoque
+                h4.card-title.text-center.mb-4 Redirección con otro enfoque
                 p.card-text.text-center
                   | Mirándolo desde otra perspectiva…
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema2/iconcard1_08.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Técnica preventiva
+                h4.card-title.text-center.mb-4 Técnica preventiva
                 p.card-text.text-center
                   | Usted podría preguntarse si tiene garantía… y sí, incluye 2 años.    
 
@@ -802,7 +802,7 @@
       .row.justify-content-center.align-items-center    
         
         .col-lg-7.mb-4.mb-lg-0
-          p.mb-4 El cierre debe ser <b>natural, oportuno y claro</b>, sin forzar al cliente ni dejar ambigüedades. El <i>telemarketing</i> es una herramienta poderosa del marketing directo, siempre que se utilicen adecuadamente sus tres pilares:
+          p.mb-4 El cierre debe ser <b>natural, oportuno y claro</b>, sin forzar al cliente ni dejar ambigüedades. El <i>telemarketing</i> es una herramienta poderosa del <i>marketing</i> directo, siempre que se utilicen adecuadamente sus tres pilares:
           ul.lista-ul.mb-0
             li.d-flex.mb-2        
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
@@ -865,17 +865,17 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto  Telemarketing de entrada (inbound)
+          h3.titulo-con-imagen__texto  <i>Telemarketing</i> de entrada (<i>inbound</i>)
     //- Fin Imagen con titulo
 
 
-    p.mb-3.bg-color-1.p-4.rounded-2(data-aos="fade-left") Cuando una empresa habilita un sistema de atención al cliente, generalmente gratuito, como una línea 018000, ofrece un canal para que las personas puedan comunicarse para resolver dudas, presentar reclamaciones o formular sugerencias. Esta dinámica no solo busca atender necesidades inmediatas, sino también permite a la organización obtener información valiosa.
+    p.mb-3.bg-color-1.p-4.rounded-2(data-aos="fade-left") Cuando una empresa habilita un sistema de atención al cliente, generalmente gratuito, como una línea 018000, ofrece un canal para que las personas puedan comunicarse para resolver dudas, presentar reclamaciones o formular sugerencias. Esta dinámica no solo busca atender necesidades inmediatas, sino que también permite a la organización obtener información valiosa.
 
 
     .bg-color-fondo-resaltado.mb-5.br-20.overflow-hidden      
       .row.g-0.align-items-stretch.justify-content-center
         .col-lg-5.d-none.d-lg-flex
-          img.img-fluid(src='@/assets/curso/tema2/10.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")
+          img.img-fluid(src='@/assets/curso/tema2/10.png', alt='', style="width: 100%; object-fit: cover; object-position: left center;")
 
         .col-12.col-lg-7.bg-color-2.p-5.p-lg-5.pe-lg-0
           p El contacto iniciado por el cliente representa una oportunidad estratégica para mejorar la relación comercial y optimizar procesos. A través de estas interacciones, la empresa puede:
@@ -901,7 +901,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto  Telemarketing de salida (outbound)
+          h3.titulo-con-imagen__texto  <i>Telemarketing</i> de salida (<i>outbound</i>)
     //- Fin Imagen con titulo
 
     p.mb-3(data-aos="fade-left") En este caso, es la empresa la que toma la iniciativa y se pone en contacto con los clientes. Esta modalidad se utiliza para distintos fines comerciales, como:
@@ -929,7 +929,7 @@
     .bg-color-fondo-resaltado.mb-5.br-20.overflow-hidden      
       .row.g-0.align-items-stretch.justify-content-center        
         .col-12.col-lg-7.bg-color-2.p-5.p-lg-5.pe-lg-0
-          p Esta forma de telemarketing se ha consolidado como una alternativa eficaz frente a métodos tradicionales como las ventas puerta a puerta, ya que permite mayor cobertura geográfica, ahorro en recursos y una ejecución más ágil de las campañas. Las ventajas del <i>outbound telemarketing</i> son: 
+          p Esta forma de <i>telemarketing</i> se ha consolidado como una alternativa eficaz frente a métodos tradicionales como las ventas puerta a puerta, ya que permite mayor cobertura geográfica, ahorro en recursos y una ejecución más ágil de las campañas. Las ventajas del <i>outbound telemarketing</i> son: 
           ul.lista-ul.mb-0
             li.d-flex.mb-2        
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
@@ -946,7 +946,7 @@
      
 
         .col-lg-5.d-none.d-lg-flex
-                  img.img-fluid(src='@/assets/curso/tema2/11.png', alt='Checklist', style="width: 100%; object-fit: cover; object-position: left center;")
+                  img.img-fluid(src='@/assets/curso/tema2/11.png', alt='', style="width: 100%; object-fit: cover; object-position: left center;")
 
     //- Imagen con titulo
     .bg-full-width.mt-5
@@ -954,7 +954,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto  Telemarketing de entrada (inbound)
+          h3.titulo-con-imagen__texto  Utilidades del <i>telemarketing</i>
     //- Fin Imagen con titulo
 
 

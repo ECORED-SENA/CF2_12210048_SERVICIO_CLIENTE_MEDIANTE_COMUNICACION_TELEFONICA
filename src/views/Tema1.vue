@@ -20,7 +20,7 @@
             .p-4.h-100.d-flex.align-items-center
               p.mb-0 Según Claus Moller (2005), quejarse tradicionalmente ha tenido una connotación negativa, asociada al desagrado o la inconformidad. Sin embargo, hoy se reconoce que una queja bien gestionada puede fortalecer la relación con el cliente y generar confianza.        
         .row          
-          p.mb-0 Actualmente, muchas empresas utilizan canales como redes sociales, chats en vivo, formularios digitales y aplicaciones móviles para gestionar las reclamaciones. Por tanto, los asesores deben contar con habilidades no solo comunicativas, sino también digitales, emocionales y analíticas.
+          p.mb-0 Actualmente, muchas empresas utilizan canales como redes sociales, <i>chats</i> en vivo, formularios digitales y aplicaciones móviles para gestionar las reclamaciones. Por tanto, los asesores deben contar con habilidades no solo comunicativas, sino también digitales, emocionales y analíticas.
       .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
         figure.h-100.mb-0
           img(src='@/assets/curso/tema1/2.png', alt='', style="height: 100%; object-fit: cover;").w-100
@@ -75,7 +75,7 @@
               p.mb-0 Agilidad en la solución del problema.
       .col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/4.png', alt='Personal de servicio al cliente trabajando')
+          img(src='@/assets/curso/tema1/4.png', alt='')
           
       //- Imagen con titulo
       .bg-full-width.mt-5
@@ -126,7 +126,7 @@
           p.mt-4 Un cliente que no se queja directamente puede dañar la imagen de la empresa si no se siente escuchado.        
         .col-lg-5
           figure
-            img(src='@/assets/curso/tema1/5.png', alt='Mujer con megáfono haciendo señal de alto')
+            img(src='@/assets/curso/tema1/5.png', alt='')
 
 
     //- Imagen con titulo
@@ -137,11 +137,7 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
           h3.titulo-con-imagen__texto El poder del boca a boca digital
     //- Fin Imagen con titulo
-
-    p(data-aos="fade-left") Sánchez (2014) ya advertía sobre el peligro del comentario negativo tradicional. En la actualidad, ese riesgo se ha multiplicado debido al entorno digital. El boca a boca se ha transformado en:
-
-
-    
+      
     .bg-color-2.p-md-5.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
         .col-lg-7.mb-4.mb-lg-0
@@ -149,7 +145,7 @@
           ul.lista-ul.mb-0
             li.d-flex.mb-3
               i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-              p.mb-0 Comentarios en plataformas como Google, Facebook, Instagram, X (antes Twitter), o TikTok.
+              p.mb-0 Comentarios en plataformas como Google, Facebook, Instagram, X (antes Twitter) o TikTok.
             li.d-flex.mb-3
               i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
               p.mb-0 Videos en YouTube o <i>reviews virales.</i>
@@ -254,7 +250,7 @@
                     i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                     p.mb-0 En casos extremos, pueden emprenderse acciones legales. 
 
-    p(data-aos="fade-left") Esta comparación evidencia la importancia de una gestión eficaz de la experiencia del cliente, especialmente ante situaciones de reclamo.
+    p(data-aos="fade-left") Esta comparación evidencia la importancia de una <b>gestión eficaz de la experiencia del cliente</b>, especialmente ante situaciones de reclamo.
 
 
     //- Imagen con titulo
@@ -444,7 +440,7 @@
       .col-md-4.col-lg-4(data-aos="fade-left")
         .tarjeta.bg-color-white.h-100.shadow-sm.d-flex.flex-column
           figure.mb-0
-            img(src='@/assets/curso/tema1/card2_02.png', alt='')          
+            img(src='@/assets/curso/tema1/card2_03.png', alt='')          
           .text-center.bg-color-2.p-4.flex-grow-1
             h4.mb-3 Información constante
             p.mb-0.fw-normal El cliente valora ser informado del avance del proceso, evitando la sensación de abandono.
@@ -506,7 +502,7 @@
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
-          h3.titulo-con-imagen__texto Valor de la gestión de la información
+          h3.titulo-con-imagen__texto Fases del proceso de gestión de las reclamaciones
     //- Fin Imagen con titulo
 
 
@@ -668,7 +664,7 @@
             p.mb-0.fw-normal Hace sentir al cliente apreciado y recompensado por su paciencia y comprensión.
 
     
-    p(data-aos="fade-left") Ofrecer algo más permite superar las expectativas del cliente, generando una buena impresión, y en algunos casos, logrando que el cliente olvide momentáneamente el problema inicial y se enfoque en la solución positiva.
+    p(data-aos="fade-left") Ofrecer algo más permite superar las expectativas del cliente, generando una buena impresión y, en algunos casos, logrando que el cliente olvide momentáneamente el problema inicial y se enfoque en la solución positiva.
 
 
       //- Imagen con titulo
@@ -697,13 +693,13 @@
             ul.lista-ul.mb-0
               li.d-flex.mb-2
                 i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                p.mb-0 Su comprensión ante los errores cometidos.
+                p.mb-0 Su <b>comprensión</b> ante los errores cometidos.
               li.d-flex.mb-2
                 i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                p.mb-0 La paciencia durante el proceso de solución.
+                p.mb-0 La <b>paciencia</b> durante el proceso de solución.
               li.d-flex
                 i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                p.mb-0 La información valiosa que ha compartido, útil para mejorar los servicios.
+                p.mb-0 La <b>información valiosa</b> que ha compartido, útil para mejorar los servicios.
         
         p.mb-0 Este acto de cortesía fortalece la relación y transmite una cultura empresarial centrada en el respeto y la mejora continua.
       
@@ -717,7 +713,7 @@
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
             img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
-            h3.titulo-con-imagen__texto Relizar seguimiento
+            h3.titulo-con-imagen__texto Realizar seguimiento
       //- Fin Imagen con titulo
 
     p(data-aos="fade-left") Una vez resuelta la reclamación, es recomendable contactar nuevamente al cliente, siempre que sea posible, para verificar si:
@@ -738,7 +734,7 @@
             .col-7
               figure
                 img(src='@/assets/curso/tema1/13.svg', alt='')
-          p.text-center Se siente satisfecho con el trato recibido
+          p.text-center Se siente satisfecho con el trato recibido.
 
 
       .col-sm-6.col-lg-4.mb-4.d-flex
@@ -851,7 +847,7 @@
           h3.titulo-con-imagen__texto Claves para tratar a un interlocutor enfadado
     //- Fin Imagen con titulo
 
-    p(data-aos="fade-left") Una vez comprendido este proceso emocional, el asesor o asesora debe aplicar ciertas estrategias específicas para abordar correctamente al cliente molesto:
+    p(data-aos="fade-left") Una vez comprendido este proceso emocional, el asesor o asesora debe aplicar ciertas <b>estrategias específicas</b> para abordar correctamente al cliente molesto:
 
 
       .bg-full-width
@@ -863,43 +859,43 @@
             SlyderF(columnas="col-md-4 col-xl-4")
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/iconcard1_01.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Escuchar sin interrumpir
+                h4.card-title.text-center.mb-4 Escuchar sin interrumpir
                 p.card-text.text-center
                   | Permite que el cliente libere tensión y se sienta valorado.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                img(src='@/assets/curso/tema1/iconcard1_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Mantener un tono de voz calmado y neutral
+                img(src='@/assets/curso/tema1/iconcard1_02.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center.mb-4 Mantener un tono de voz calmado y neutral
                 p.card-text.text-center
                   | Ayuda a desescalar la situación emocional.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/iconcard1_03.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center No tomar el reclamo como algo personal
+                h4.card-title.text-center.mb-4 No tomar el reclamo como algo personal
                 p.card-text.text-center
                   | Favorece el control emocional del asesor y evita respuestas defensivas.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/iconcard1_04.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Mostrar empatía sin justificar el error
+                h4.card-title.text-center.mb-4 Mostrar empatía sin justificar el error
                 p.card-text.text-center
                   | Demuestra comprensión sin asumir culpas innecesarias.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/iconcard1_05.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center No reaccionar al ataque o provocación
+                h4.card-title.text-center.mb-4 No reaccionar al ataque o provocación
                 p.card-text.text-center
                   | Mantiene el foco en la solución y no en el conflicto.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/iconcard1_06.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Esperar el momento oportuno para intervenir
+                h4.card-title.text-center.mb-4 Esperar el momento oportuno para intervenir
                 p.card-text.text-center
                   | Evita reactivar la hostilidad. Se debe actuar cuando el cliente esté más receptivo.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/iconcard1_07.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                h4.card-title.text-center Orientar la conversación hacia la solución
+                h4.card-title.text-center.mb-4 Orientar la conversación hacia la solución
                 p.card-text.text-center
                   | Redirige la energía del cliente hacia un resultado positivo.
 
