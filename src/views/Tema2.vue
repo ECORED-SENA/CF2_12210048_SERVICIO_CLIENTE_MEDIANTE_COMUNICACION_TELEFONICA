@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Telemarketing
+      h1 <i>Telemarketing</i>
 
     p.mb-3 En la actualidad, el uso de <b>herramientas tecnológicas</b> ha transformado profundamente la forma en que las empresas desarrollan sus actividades comerciales. Las formas tradicionales de captación han sido complementadas (e incluso reemplazadas) en ciertos contextos por <b>métodos modernos de comunicación</b>, más directos y eficaces.
 
@@ -489,7 +489,7 @@
     //- Inicio Tema2.3
     .row.mt-5
         #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 2.3 Elementos del telemarketing
+          h2 2.3 Elementos del <i>telemarketing</i>
     p.mb-3(data-aos="fade-left") Las estrategias de <i>telemarketing</i> se sustentan en tres elementos fundamentales que trabajan en conjunto para lograr sus objetivos. Según Carrasco (2014), estos elementos permiten ejecutar campañas efectivas, generar confianza en los clientes y mejorar los resultados comerciales: 
     
     
@@ -835,7 +835,7 @@
     //- Inicio Tema2.5
     .row.mt-5
         #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 2.5 Tipos de telemarketing
+          h2 2.5 Tipos de <i>telemarketing</i>
     p.mb-3(data-aos="fade-left") El <i>telemarketing</i> es una técnica que permite la comunicación inmediata, directa y bidireccional entre un asesor o asesora telefónica y un cliente. Esta interacción puede tener múltiples objetivos, como informar, vender, fidelizar o investigar el mercado. El tipo de <i>telemarketing</i> se determina a partir de quién inicia el contacto. A partir de ello, se establecen dos grandes modalidades:
  
 

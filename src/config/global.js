@@ -75,7 +75,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: '<i>telemarketing</i>',
+        titulo: '<i>Telemarketing</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
