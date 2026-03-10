@@ -545,7 +545,7 @@
               p.mb-0 Estación de trabajo adecuada (mobiliario ergonómico)
             li.d-flex.mb-2
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
-              p.mb-0 Computador en red y software especializado
+              p.mb-0 Computador en red y <i>software</i> especializado
             li.d-flex.mb-2
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
               p.mb-0 Diadema telefónica y equipo de telecomunicaciones avanzados
