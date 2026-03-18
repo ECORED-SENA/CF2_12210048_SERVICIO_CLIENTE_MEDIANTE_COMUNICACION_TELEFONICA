@@ -7,7 +7,7 @@
 
     p.mt-2
       strong Síntesis:
-      |  Síntesis: Gestión de las reclamaciones y <i>telemarketing</i> en la atención telefónica.
+      |  Gestión de las reclamaciones y <i>telemarketing</i> en la atención telefónica.
     
 
     p.mt-5 A continuación, se presenta a manera de síntesis un esquema que articula los elementos principales abordados en el desarrollo del componente formativo.

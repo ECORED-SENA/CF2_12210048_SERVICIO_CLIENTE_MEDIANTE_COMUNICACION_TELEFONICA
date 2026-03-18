@@ -10,7 +10,7 @@
     p.mb-3(data-aos="fade-left") En el entorno empresarial actual, las reclamaciones y quejas de los clientes no solo deben considerarse inevitables, sino también estratégicas. En una era donde la reputación de una marca puede construirse o destruirse en línea, estas manifestaciones representan una oportunidad clave para mejorar procesos, productos y servicios.
 
     //- Contenido Introducturio.
-    .row.justify-content-center.align-items-stretch.mb-5        
+    .row.justify-content-center.align-items-stretch.mb-2   
       .col-lg-9               
         .row.g-0.align-items-stretch.mb-4          
           .col-md-5
@@ -42,8 +42,8 @@
           .col-lg
           p.mb-0 Antes de abordar las pautas de acción, es esencial entender el significado moderno de una queja. Según QAEC (2016), se define como una expresión de insatisfacción dirigida a una organización con respecto a un producto o servicio, generalmente acompañada de la expectativa de una compensación.                
         .row.mt-3.align-items-start.mb-10.bg-color-2(data-aos="fade-left")  
-            p.p-4(data-aos="fade-left") Hoy en día, una queja puede llegar por múltiples vías: correo electrónico, redes sociales, reseñas en línea o llamadas telefónicas. <b>No recibir quejas no significa tener clientes satisfechos</b>; muchas personas prefieren irse en silencio y compartir su experiencia negativa en plataformas públicas.            
-    p(data-aos="fade-left") Aunque a nadie le gusta recibir quejas, son una fuente directa de aprendizaje. Las empresas que saben escucharlas y actuar con rapidez tienen una ventaja competitiva clara.
+            p.p-5(data-aos="fade-left") Hoy en día, una queja puede llegar por múltiples vías: correo electrónico, redes sociales, reseñas en línea o llamadas telefónicas. <b>No recibir quejas no significa tener clientes satisfechos</b>; muchas personas prefieren irse en silencio y compartir su experiencia negativa en plataformas públicas.            
+    p.mt-3(data-aos="fade-left") Aunque a nadie le gusta recibir quejas, son una fuente directa de aprendizaje. Las empresas que saben escucharlas y actuar con rapidez tienen una ventaja competitiva clara.
   
     //- Imagen con titulo
     .bg-full-width.mt-5
@@ -86,24 +86,26 @@
             h3.titulo-con-imagen__texto ¿Cómo reacciona el cliente actual ante la atención recibida?
       //- Fin Imagen con titulo
 
-    p(data-aos="fade-left") El comportamiento del consumidor ha cambiado con el auge de la tecnología. Hoy, el cliente puede opinar, influenciar y viralizar experiencias en minutos. Por ello, una mala gestión puede tener consecuencias mayores que en el pasado.
-
+    .row.bg-color-10
+      .col-12
+        .p-5
+          p(data-aos="fade-left") El comportamiento del consumidor ha cambiado con el auge de la tecnología. Hoy, el cliente puede opinar, influenciar y viralizar experiencias en minutos. Por ello, una mala gestión puede tener consecuencias mayores que en el pasado.
         
-    .row.justify-content-center.mb-5     
-      .col-md-6.col-lg-5.mb-4.mb-md-0(data-aos="fade-right")
-        .tarjeta.bg-color-white.h-100.shadow-sm
-          figure.mb-0
-            img(src='@/assets/curso/tema1/card1_01.png', alt='')
-          .p-4.text-center.bg-color-3
-            h4.mb-3 Cliente satisfecho
-            p Recomienda la marca en redes, deja valoraciones positivas.      
-      .col-md-6.col-lg-5(data-aos="fade-left")
-        .tarjeta.bg-color-white.h-100.shadow-sm
-          figure.mb-0
-            img(src='@/assets/curso/tema1/card1_02.png', alt='')
-          .p-4.text-center.bg-color-3
-            h4.mb-3 Cliente insatisfecho
-            p Publica reseñas negativas, abandona la marca, influye a otros.
+        .row.justify-content-center.mb-5     
+          .col-md-6.col-lg-5.mb-4.mb-md-0(data-aos="fade-right")
+            .tarjeta.bg-color-white.h-100.shadow-sm
+              figure.mb-0
+                img(src='@/assets/curso/tema1/card1_01.png', alt='')
+              .p-4.text-center.bg-color-3
+                h4.mb-3 Cliente satisfecho
+                p Recomienda la marca en redes, deja valoraciones positivas.      
+          .col-md-6.col-lg-5(data-aos="fade-left")
+            .tarjeta.bg-color-white.h-100.shadow-sm
+              figure.mb-0
+                img(src='@/assets/curso/tema1/card1_02.png', alt='')
+              .p-4.text-center.bg-color-3
+                h4.mb-3 Cliente insatisfecho
+                p Publica reseñas negativas, abandona la marca, influye a otros.
 
     
     .bg-color-5.p-4.p-md-5.mb-5(data-aos="fade-up")
@@ -266,24 +268,17 @@
     p(data-aos="fade-left") Según Krasovitzky (2011), una empresa puede atender con éxito las reclamaciones de sus clientes si empodera adecuadamente a su personal. Para ello, es necesario otorgar a los empleados tres elementos clave:
     container.tarjeta.p-4.p-md-5
 
-      TabsA.color-acento-botones
+      TabsA.color-acento-botones.mb-3
         .tarjeta.p-5.bg-color-5(titulo="Responsabilidad")
           h4 Responsabilidad
           p Capacidad de asumir y resolver las quejas del cliente de forma eficaz.
-
-
         .tarjeta.p-5.bg-color-5(titulo="Autonomía controlada")
           h4 Autonomía controlada
-          p Libertad para tomar decisiones dentro de ciertos límites, utilizando el criterio adecuado.
-
-        
+          p Libertad para tomar decisiones dentro de ciertos límites, utilizando el criterio adecuado.        
         .tarjeta.p-5.bg-color-5(titulo="Marco de actuación")
           h4 Marco de actuación
           p Guía clara con los pasos a seguir durante el proceso de atención, que asegure coherencia y consistencia en todas las respuestas.
-
-    
-
-      p(data-aos="fade-left") Estas condiciones son esenciales para que el personal pueda actuar con seguridad y profesionalismo, incluso en situaciones difíciles o tensas.
+      p.mb-5(data-aos="fade-left") Estas condiciones son esenciales para que el personal pueda actuar con seguridad y profesionalismo, incluso en situaciones difíciles o tensas.
 
 
       //- Imagen con titulo
@@ -337,7 +332,7 @@
       p(data-aos="fade-left") Al gestionar una reclamación, el comportamiento del personal de atención al cliente es crucial. Una respuesta inadecuada puede agravar la situación o deteriorar aún más la relación con el cliente. Integralia (2014) destaca una serie de prácticas que deben evitarse durante el proceso de atención. Estos errores, aunque comunes, pueden impedir una resolución satisfactoria y afectar la percepción del cliente sobre la empresa:
 
 
-    .bg-full-width.bg-fondo-slider.mb-3
+    .bg-full-width.bg-fondo-slider.mb-4
             .p-4.p-md-5
               SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
                 .row.align-items-center.p-4.p-md-5
@@ -383,6 +378,7 @@
     p(data-aos="fade-left") Adoptar una actitud profesional, empática y honesta es clave para transformar una experiencia negativa en una oportunidad de mejora para la empresa y de recuperación del cliente.
     //- Fin Tema1.1
 
+    separador
 
     //- Inicio Tema1.2
     .row.mt-5
@@ -494,7 +490,7 @@
             img(src='@/assets/curso/tema1/9.png', alt='')
 
     
-    p.text-center.mb-5(data-aos="fade-left") Una empresa que aprende de sus reclamaciones y responde con eficacia no solo corrige errores, sino que crece con ellos.
+    p.mb-5(data-aos="fade-left") Una empresa que aprende de sus reclamaciones y responde con eficacia no solo corrige errores, sino que crece con ellos.
 
     //- Imagen con titulo
     .bg-full-width.mt-5
@@ -506,19 +502,19 @@
     //- Fin Imagen con titulo
 
 
-    .row.mb-10
-      .col-lg-5.mb-3.mb-lg-0
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/10.png", data-aos="zoom-in")
-      .col-lg-7
+      .col-lg-8
         .row.align-items-start.mb-3(data-aos="fade-left")
           .col-lg
           p.mb-0 El proceso de gestión de una reclamación comienza desde el momento en que esta es recibida por la empresa, hasta que se evalúa el nivel de satisfacción del cliente y se aprovecha la información obtenida para mejorar los procesos internos.
         .row.mt-3.align-items-start.mb-10.bg-color-2(data-aos="fade-left")  
-            p.p-4(data-aos="fade-left") López Fresno (2010) plantea que todo debe iniciar con una planificación estratégica, que defina claramente los canales de comunicación, las herramientas a utilizar y la estrategia de atención al cliente. A partir de ahí, se desarrolla una serie de fases operativas que aseguran una atención profesional, coherente y orientada a la mejora continua.
+            p.p-2(data-aos="fade-left") López Fresno (2010) plantea que todo debe iniciar con una planificación estratégica, que defina claramente los canales de comunicación, las herramientas a utilizar y la estrategia de atención al cliente. A partir de ahí, se desarrolla una serie de fases operativas que aseguran una atención profesional, coherente y orientada a la mejora continua.
 
 
-    .bg-full-width.bg-fondo-slider.mb-3.mt-5
+    .bg-full-width.bg-fondo-slider.mb-4.mt-5
             .p-4.p-md-5
               SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
                 .row.align-items-center.p-4.p-md-5
@@ -615,7 +611,7 @@
     p(data-aos="fade-left") Una gestión estructurada y profesional de las reclamaciones <b>no solo resuelve problemas inmediatos</b>, sino que también permite a la empresa <b>aprender de sus errores, prevenir fallos y construir relaciones duraderas</b> con sus clientes.
 
     //- Fin Tema1.2
-
+    Separador
     //- Inicio Tema1.3
     .row.mt-5
         #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -683,12 +679,10 @@
     .row.justify-content-center.align-items-center.mb-5    
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-4 El agradecimiento sincero es una herramienta poderosa. Agradecer al cliente por:
-
         .row.align-items-center.mb-4
           .col-auto.d-none.d-md-block
             figure
-              img(src='@/assets/curso/tema1/11.svg', alt='', style="width: 80px;")         
-          
+              img(src='@/assets/curso/tema1/11.svg', style="width: 80px")
           .col
             ul.lista-ul.mb-0
               li.d-flex.mb-2
@@ -699,13 +693,11 @@
                 p.mb-0 La <b>paciencia</b> durante el proceso de solución.
               li.d-flex
                 i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                p.mb-0 La <b>información valiosa</b> que ha compartido, útil para mejorar los servicios.
-        
-        p.mb-0 Este acto de cortesía fortalece la relación y transmite una cultura empresarial centrada en el respeto y la mejora continua.
-      
+                p.mb-0 La <b>información valiosa</b> que ha compartido, útil para mejorar los servicios.        
+        p.mb-0 Este acto de cortesía fortalece la relación y transmite una cultura empresarial centrada en el respeto y la mejora continua.      
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/12.svg', alt='')
+          img(src='@/assets/curso/tema1/12.svg', style="width: 220px")
 
       //- Imagen con titulo
       .bg-full-width.mt-5
@@ -771,10 +763,10 @@
             ul.lista-ul.mb-0
               li.d-flex.mb-2
                 i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                p.mb-0 Aprender de los errores
+                p.mb-0 Aprender de los errores.
               li.d-flex.mb-2
                 i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                p.mb-0 Mejorar procesos
+                p.mb-0 Mejorar procesos.
               li.d-flex
                 i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
                 p.mb-0 Prevenir futuras inconformidades.
@@ -789,7 +781,7 @@
           img(src='@/assets/curso/tema1/14.png', alt='')
 
     //- Fin Tema1.3
-
+    Separador
     //- Inicio Tema1.4
     .row.mt-5
         #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -912,6 +904,7 @@
 
     //- Fin Tema1.4
 
+    Separador
 
     //- Inicio Tema1.5
     .row.mt-5

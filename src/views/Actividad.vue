@@ -20,7 +20,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar la comprensión de los conceptos clave relacionados con la gestión de reclamaciones de clientes y las estrategias de <i>telemarketing</i> en entornos empresariales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -595,7 +595,7 @@ export default {
             },
             {
               id: 'd',
-              texto: '¿Qué se busca con la técnica del aplazamiento?',
+              texto: 'Cambiar de tema sin aviso.',
               esCorrecta: false,
             },
           ],
